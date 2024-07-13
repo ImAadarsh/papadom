@@ -42,8 +42,8 @@
                                 <li><a href="about.php">About Us</a></li>
                                 <li><a href="menu.php">Our Menu</a></li>
                                 <li><a href="contact.php">Contact Us</a></li>
-                                <li><a href="order.php">Order Online</a></li>
-                                <li><a href="faq.php">FAQs</a></li>
+                                <li><a href="menu.php">Order Online</a></li>
+                                <li><a href="menu.php">FAQs</a></li>
                             </ul>
                         </div>
                     </div>
@@ -81,13 +81,13 @@
         <div class="container">
             <div class="row gx-1 gy-2 align-items-center">
                 <div class="col-md-7">
-                    <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a href="index.php">Papadom ON the Hill</a>. All Rights Reserved.</p>
+                    <p class="copyright-text"><i class="fal fa-copyright"></i> 2024 Papadom On The Hill | Developed By <a href="https://endeavourdigital.in">Endeavour Digital</a>.</p>
                 </div>
                 <div class="col-md-5 text-center text-md-end">
                     <div class="footer-links">
                         <ul>
-                            <li><a href="about.php">Terms & Conditions</a></li>
-                            <li><a href="about.php">Privacy Policy</a></li>
+                            <li><a href="terms.php">Terms & Conditions</a></li>
+                            <li><a href="privacy.php">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>

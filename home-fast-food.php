@@ -1421,7 +1421,7 @@ Gallery Area
                                             <li><a href="about.php">Testimonials</a></li>
                                             <li><a href="about.php">Company History</a></li>
                                             <li><a href="contact.php">Need a Career?</a></li>
-                                            <li><a href="faq.php">FAQs</a></li>
+                                            <li><a href="menu.php">FAQs</a></li>
                                         </ul>
                                     </div>
                                 </div>

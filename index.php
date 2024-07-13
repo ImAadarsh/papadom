@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Papadom ON the Hill - Indian Takeaway in West Norwood</title>
+    <title>Papadom On The Hill - Indian Takeaway in West Norwood</title>
     <?php include  "include/main.php"; ?>
 </head>
 
@@ -277,7 +277,7 @@
                         <div class="col-xl-5 text-center text-xl-start">
                             <div class="title-area mb-35">
                                 <span class="sub-title3"><img src="assets/img/theme-img/title_icon.svg" alt="Icon">About
-                                    Papadom ON the Hill</span>
+                                    Papadom On The Hill</span>
                                 <h2 class="sec-title">Serving West Norwood Since 1993</h2>
                                 <div class="text-ani">
                                     <p class="sec-text">For over three decades, we've been West Norwood's go-to Indian
@@ -386,7 +386,7 @@
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i
                                                 class="far fa-eye"></i></a>
-                                        <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
@@ -407,7 +407,7 @@
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i
                                                 class="far fa-eye"></i></a>
-                                        <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
@@ -429,7 +429,7 @@
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i
                                                 class="far fa-eye"></i></a>
-                                        <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
@@ -451,7 +451,7 @@
                                     <div class="actions">
                                         <a href="#QuickView" class="icon-btn popup-content"><i
                                                 class="far fa-eye"></i></a>
-                                        <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                        <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
@@ -484,15 +484,15 @@
                         <div class="col-lg-6">
                             <div class="cta-img1">
                                 <div class="img1">
-                                    <img src="assets/img/normal/cta_1.png" alt="Food">
+                                    <img src="images/deal.png" alt="Food">
                                 </div>
-                                <h4 class="price" data-bg-src="assets/img/bg/shape_bg_2.svg">£11.95</h4>
+                                <h4 class="price" data-bg-src="assets/img/bg/shape_bg_2.svg">£10.40</h4>
                             </div>
                         </div>
                         <div class="col-lg-6 pt-40 pb-40">
                             <div class="text-center text-lg-start">
                                 <h4 class="text-theme title-ani2 mb-35">Chef's Special</h4>
-                                <h2 class="sec-title title-ani2 h1 text-white mb-30">Handi Green Chicken Masala</h2>
+                                <h2 class="sec-title title-ani2 h1 text-white mb-30">Como Meal Offer</h2>
                                 <h2 class="sec-title title-ani2 text-white mb-32">Limited Time Offer</h2>
                                 <div class="text-ani">
                                     <a href="menu.php" class="th-btn style3">Order Now</a>
@@ -512,10 +512,10 @@
                         <div class="col-xl-7 mb-25 mb-xl-0">
                             <div class="img-box7">
                                 <div class="shape1">
-                                    <img class="flipX" src="assets/img/normal/delivery_2.png" alt="shape">
+                                    <img class="flipX" src="images/london.png" alt="shape">
                                 </div>
                                 <div class="img1 flipY">
-                                    <img src="assets/img/normal/delivery_1.png" alt="Delivery">
+                                    <img src="images/delivery.png" alt="Delivery">
                                 </div>
                             </div>
                         </div>
@@ -533,19 +533,19 @@
                             <div class="check-feature-wrap">
                                 <div class="check-feature text-ani">
                                     <i class="fa-solid fa-badge-check"></i>
-                                    Delivery Within 30 Minutes
+                                    Deliver in 30 Minutes
                                 </div>
                                 <div class="check-feature text-ani">
                                     <i class="fa-solid fa-badge-check"></i>
-                                    Free Delivery on Orders Over £20
+                                    Free Delivery*
                                 </div>
                                 <div class="check-feature text-ani">
                                     <i class="fa-solid fa-badge-check"></i>
-                                    Contactless Delivery Available
+                                    Contactless Delivery 
                                 </div>
                                 <div class="check-feature text-ani">
                                     <i class="fa-solid fa-badge-check"></i>
-                                    Real-Time Order Tracking
+                                    Cash On Delivery 
                                 </div>
                             </div>
                             <div class="text-ani">
@@ -564,7 +564,7 @@
                     <div class="title-area text-center">
                         <span class="sub-title3"><img src="assets/img/theme-img/title_icon.svg" alt="Icon">Our
                             Menu</span>
-                        <h2 class="sec-title title-ani">Papadom ON the Hill's Specialties</h2>
+                        <h2 class="sec-title title-ani">Papadom On The Hill's Specialties</h2>
                     </div>
                     <div class="row gy-30">
                         <div class="col-xl-6">
@@ -573,7 +573,7 @@
                                     <div class="box-img">
                                         <img src="assets/img/product/menu_thumb_1.png" alt="Chicken Tikka Masala">
                                         <div class="actions">
-                                            <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                            <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
@@ -589,7 +589,7 @@
                                     <div class="box-img">
                                         <img src="assets/img/product/menu_thumb_2.png" alt="Lamb Rogan Josh">
                                         <div class="actions">
-                                            <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                            <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
@@ -605,7 +605,7 @@
                                     <div class="box-img">
                                         <img src="assets/img/product/menu_thumb_3.png" alt="Vegetable Biryani">
                                         <div class="actions">
-                                            <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                            <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
@@ -621,7 +621,7 @@
                                     <div class="box-img">
                                         <img src="assets/img/product/menu_thumb_4.png" alt="Prawn Curry">
                                         <div class="actions">
-                                            <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                            <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
@@ -637,7 +637,7 @@
                                     <div class="box-img">
                                         <img src="assets/img/product/menu_thumb_5.png" alt="Butter Chicken">
                                         <div class="actions">
-                                            <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                            <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
@@ -657,7 +657,7 @@
                                     <div class="box-img">
                                         <img src="assets/img/product/menu_thumb_7.png" alt="Palak Paneer">
                                         <div class="actions">
-                                            <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                            <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
@@ -673,7 +673,7 @@
                                     <div class="box-img">
                                         <img src="assets/img/product/menu_thumb_8.png" alt="Tandoori Mixed Grill">
                                         <div class="actions">
-                                            <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                            <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
@@ -689,7 +689,7 @@
                                     <div class="box-img">
                                         <img src="assets/img/product/menu_thumb_9.png" alt="Chana Masala">
                                         <div class="actions">
-                                            <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                            <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
@@ -705,7 +705,7 @@
                                     <div class="box-img">
                                         <img src="assets/img/product/menu_thumb_10.png" alt="Garlic Naan">
                                         <div class="actions">
-                                            <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                            <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
@@ -721,7 +721,7 @@
                                     <div class="box-img">
                                         <img src="assets/img/product/menu_thumb_11.png" alt="Mango Lassi">
                                         <div class="actions">
-                                            <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                            <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
@@ -788,14 +788,14 @@
         ==============================-->
             <div class="bg-white">
                 <div class="shape-mockup jump d-none d-xl-block" data-top="7%" data-right="0"><img
-                        src="assets/img/shape/tomato_1.png" alt="shape" data-speed="1.1"></div>
+                        src="images/reserve1.png" alt="shape" data-speed="1.1"></div>
                 <div class="shape-mockup moving d-none d-xl-block" data-bottom="0" data-right="0"><img
                         src="assets/img/shape/red_cilli.png" alt="shape"></div>
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-7">
                             <div class="reserve-img1">
-                                <img src="assets/img/normal/booking_1.jpg" alt="Booking">
+                                <img src="images/reserve.png" alt="Booking">
                             </div>
                         </div>
                         <div class="col-xl-5 text-center text-xl-start">

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Papadom ON the Hill - About Us</title>
+    <title>Papadom On The Hill - About Us</title>
     <?php include "include/main.php" ?>
 </head>
 
@@ -38,7 +38,7 @@
             <!--==============================
             Breadcumb
             ============================== -->
-            <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+            <div class="breadcumb-wrapper" data-bg-src="images/papadom_banner.png">
                 <div class="container">
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">About Us</h1>
@@ -91,7 +91,7 @@
                                     <img src="assets/img/icon/feature_box_3.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.php">Quality Ingredients</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Quality Ingredients for Dishes</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">We use only the finest ingredients to ensure every dish is delicious and satisfying.</p>
                                     </div>
@@ -104,7 +104,7 @@
                                     <img src="assets/img/icon/feature_box_4.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.php">Convenient Takeaway</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Convenient Order Takeaway</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">Enjoy our delicious meals in the comfort of your own home with our efficient takeaway service.</p>
                                     </div>
@@ -123,7 +123,7 @@
                         <div class="col-xl-6 mb-40 mb-xl-0">
                             <div class="img-box8">
                                 <div class="img1">
-                                    <img src="assets/img/normal/about_5_1.jpg" alt="Papadom ON the Hill">
+                                    <img src="images/about-papadom.png" alt="Papadom On The Hill">
                                 </div>
                             </div>
                         </div>
@@ -133,7 +133,7 @@
                                     <span class="sub-title3"><img src="assets/img/theme-img/title_icon2.svg" alt="Icon">About Our Restaurant</span>
                                     <h2 class="sec-title title-ani">A Local Indian Takeaway Since 1993</h2>
                                     <div class="text-ani">
-                                        <p class="sec-text">Papadom ON the Hill has been serving the West Norwood community since 1993. We specialize in delicious Indian takeaway food prepared to satisfy every appetite. Our loyal customers know they can rely on us for authentic flavors and excellent service.</p>
+                                        <p class="sec-text">Papadom On The Hill has been serving the West Norwood community since 1993. We specialize in delicious Indian takeaway food prepared to satisfy every appetite. Our loyal customers know they can rely on us for authentic flavors and excellent service.</p>
                                     </div>
                                 </div>
                                 <img class="mb-40" src="assets/img/shape/line_dotted_1.svg" alt="shape">
@@ -227,7 +227,7 @@
                             <div class="story-box">
                                 <div class="box-content text-ani">
                                     <h3 class="box-title">1993</h3>
-                                    <p class="box-text">Papadom ON the Hill opens its doors in West Norwood.</p>
+                                    <p class="box-text">Papadom On The Hill opens its doors in West Norwood.</p>
                                 </div>
                             </div>
                         </div>
@@ -267,7 +267,7 @@
                         <div class="col-xl-7 mb-25 mb-xl-0">
                             <div class="img-box7">
                                 <div class="img1 flipY">
-                                    <img src="assets/img/normal/delivery_1.png" alt="Delivery">
+                                    <img src="images/delivery.png" alt="Delivery">
                                 </div>
                             </div>
                         </div>
@@ -286,7 +286,7 @@
                                 </div>
                                 <div class="check-feature text-ani">
                                     <i class="fa-solid fa-badge-check"></i>
-                                    Open 6 Days a Week
+                                    6 Days a Week
                                 </div>
                                 <div class="check-feature text-ani">
                                     <i class="fa-solid fa-badge-check"></i>

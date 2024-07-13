@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Papadom ON the Hill - Contact Us</title>
+    <title>Papadom On The Hill - Contact Us</title>
     <?php include "include/main.php" ?>
 </head>
 
@@ -37,7 +37,7 @@
             <!--==============================
             Breadcumb
             ============================== -->
-            <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+            <div class="breadcumb-wrapper" data-bg-src="images/papadom_banner.png">
                 <div class="container">
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">Contact Us</h1>
@@ -59,7 +59,7 @@
                                 <div class="title-area mb-32">
                                     <h2 class="sec-title title-ani2">Contact Information</h2>
                                     <div class="text-ani">
-                                        <p class="sec-text">Papadom ON the Hill has been serving delicious Indian takeaway to the West Norwood community since 1993. We're here to satisfy your cravings for authentic Indian cuisine.</p>
+                                        <p class="sec-text">Papadom On The Hill has been serving delicious Indian takeaway to the West Norwood community since 1993. We're here to satisfy your cravings for authentic Indian cuisine.</p>
                     </div>
                                 </div>
                                 <div class="contact-feature-wrap">
@@ -152,7 +152,7 @@
                         <div class="col-lg-6 offset-lg-3">
                             <div class="location-card">
                                 <div class="box-content">
-                                    <h3 class="box-title title-ani2">Papadom ON the Hill</h3>
+                                    <h3 class="box-title title-ani2">Papadom On The Hill</h3>
                                     <p class="box-text title-ani2">62 Knights Hill, West Norwood, London, SE270JD</p>
                                     <p class="box-info title-ani2"><i class="fal fa-clock"></i> Wednesday - Monday: 17:00 - 23:00</p>
                                     <p class="box-info title-ani2"><i class="fal fa-clock"></i> Tuesday: Closed</p>

@@ -43,7 +43,7 @@
         <div id="smooth-content"><!--==============================
     Breadcumb
 ============================== -->
-            <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+            <div class="breadcumb-wrapper " data-bg-src="images/papadom_banner.png">
                 <div class="container">
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">Gallery</h1>

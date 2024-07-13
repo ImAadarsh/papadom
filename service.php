@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Papadom ON the Hill - Our Services</title>
+    <title>Papadom On The Hill - Our Services</title>
     <?php include "include/main.php" ?>
 </head>
 
@@ -40,7 +40,7 @@
             <!--==============================
             Breadcumb
             ============================== -->
-            <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+            <div class="breadcumb-wrapper" data-bg-src="images/papadom_banner.png">
                 <div class="container">
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">Our Services</h1>
@@ -60,7 +60,7 @@
                         <div class="col-xxl-7 col-xl-8 col-lg-7 col-md-9">
                             <div class="title-area text-center">
                                 <span class="sub-title3"><img src="assets/img/theme-img/title_icon2.svg" alt="Icon">Our Restaurant Services</span>
-                                <h2 class="sec-title title-ani">Papadom ON the Hill's Dedication to Exceptional Service</h2>
+                                <h2 class="sec-title title-ani">Papadom On The Hill's Dedication to Exceptional Service</h2>
                             </div>
                         </div>
                     </div>
@@ -173,10 +173,10 @@
                         <div class="col-xl-7 mb-25 mb-xl-0">
                             <div class="img-box7">
                                 <div class="shape1">
-                                    <img class="flipX" src="assets/img/normal/delivery_2.png" alt="shape">
+                                    <img class="flipX" src="images/london.png" alt="shape">
                                 </div>
                                 <div class="img1 flipY">
-                                    <img src="assets/img/normal/delivery_1.png" alt="Why">
+                                    <img src="images/delivery.png" alt="Why">
                                 </div>
                             </div>
                         </div>
