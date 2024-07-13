@@ -45,110 +45,7 @@ Product Lightbox
    <?php include "include/mobile.php" ?><!--==============================
 	Header Area
 ==============================-->
-    <header class="th-header header-layout1 ">
-        <div class="header-top">
-            <div class="container">
-                <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
-                    <div class="col-auto d-none d-lg-block">
-                        <div class="header-links">
-                            <ul>
-                                <li class="d-none d-xxl-inline-block"><i class="fas fa-location-dot"></i> <a href="https://www.google.com/maps/">9402 Main St, Plymouth, CA 95669, United States</a></li>
-                                <li><i class="fas fa-phone"></i> <a href="tel:+98782818015">+987-828-18015</a></li>
-                                <li><i class="fas fa-envelope"></i> <a href="mailto:info@restar.com">info@restar.com</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="header-links">
-                            <div class="shape1"></div>
-                            <ul>
-                                <li><i class="fas fa-clock"></i> <b>Mondat to Friday:</b> 9:00am - 22:00pm</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sticky-wrapper">
-            <!-- Main Menu Area -->
-            <div class="menu-area">
-                <div class="container">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-auto">
-                            <div class="header-logo">
-                                <a href="index.php"><img src="assets/img/logo.svg" alt="Restar"></a>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <nav class="main-menu d-none d-lg-inline-block">
-                                <ul>
-                                    <li class="menu-item-has-children">
-                                        <a href="index.php">Home</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.php">Restaurant Shop</a></li>
-                                            <li><a href="home-fast-food.php">Home Fast Food</a></li>
-                                            <li><a href="home-restaurant.php">Home Restaurant</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="about.php">About Us</a></li>
-                                            <li><a href="service.php">Service</a></li>
-                                            <li><a href="service-details.php">Service Details</a></li>
-                                            <li><a href="team.php">Chef</a></li>
-                                            <li><a href="team-details.php">Chef Details</a></li>
-                                            <li><a href="reservation.php">Reservation</a></li>
-                                            <li><a href="gallery.php">Gallery</a></li>
-                                            <li><a href="error.php">Error Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Menus</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="menu-one.php">Food Menu 1</a></li>
-                                            <li><a href="menu-two.php">Food Menu 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Shop</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="shop.php">Shop</a></li>
-                                            <li><a href="shop-details.php">Shop Details</a></li>
-                                            <li><a href="cart.php">Cart Page</a></li>
-                                            <li><a href="checkout.php">Checkout</a></li>
-                                            <li><a href="wishlist.php">Wishlist</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.php">Blog</a></li>
-                                            <li><a href="blog-details.php">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="contact.php">Contact</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="col-auto">
-                            <div class="header-button">
-                                <button type="button" class="simple-icon searchBoxToggler d-none d-xl-block"><i class="fal fa-search"></i></button>
-                                <button type="button" class="simple-icon sideMenuToggler">
-                                    <span class="badge">5</span>
-                                    <i class="fal fa-cart-shopping"></i>
-                                </button>
-                                <a href="contact.php" class="th-btn style4 d-none d-xl-block">Book A Table</a>
-                                <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+<?php include "include/header.php" ?>
 
     <div id="smooth-wrapper">
         <div id="smooth-content"><!--==============================
@@ -1620,31 +1517,7 @@ Gallery Area
     <!--==============================
     All Js File
 ============================== -->
-    <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
-    <!-- Swiper Js -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!-- Date Time -->
-    <script src="assets/js/jquery.datetimepicker.min.js"></script>
-    <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-
-    <!-- Gsap Animation -->
-    <script src="assets/js/gsap.min.js"></script>
-    <script src="assets/js/ScrollTrigger.min.js"></script>
-    <script src="assets/js/ScrollToPlugin.min.js"></script>
-    <script src="assets/js/ScrollSmoother.min.js"></script>
-    <script src="assets/js/SplitText.min.js"></script>
-
-    <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+   <?php include "include/script.php" ?>
 </body>
 
 </html>

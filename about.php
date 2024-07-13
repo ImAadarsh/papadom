@@ -1,24 +1,17 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Restar - Fast Food & Restaurant HTML Template - About Us</title>
-<?php include "include/main.php" ?>
-
+    <title>Papadom ON the Hill - About Us</title>
+    <?php include "include/main.php" ?>
 </head>
 
 <body>
-
     <!--[if lte IE 9]>
     	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   	<![endif]-->
-
-
-    <!--********************************
-   		Code Start From Here 
-	******************************** -->
 
     <!-- Scroll Smoother -->
     <div class="has-smooth" id="has_smooth"></div>
@@ -30,128 +23,22 @@
     Sidemenu
 ============================== -->
     
-    <div class="popup-search-box d-none d-lg-block">
-        <button class="searchClose"><i class="fal fa-times"></i></button>
-        <form action="#">
-            <input type="text" placeholder="What are you looking for?">
-            <button type="submit"><i class="fal fa-search"></i></button>
-        </form>
-    </div><!--==============================
+    <?php include "include/sidebar.php" ?>
+    <!--==============================
     Mobile Menu
   ============================== -->
-   <?php include "include/mobile.php" ?><!--==============================
+    <?php include "include/mobile.php" ?>
+    <!--==============================
 	Header Area
 ==============================-->
-    <header class="th-header header-layout1 ">
-        <div class="header-top">
-            <div class="container">
-                <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
-                    <div class="col-auto d-none d-lg-block">
-                        <div class="header-links">
-                            <ul>
-                                <li class="d-none d-xxl-inline-block"><i class="fas fa-location-dot"></i> <a href="https://www.google.com/maps/">9402 Main St, Plymouth, CA 95669, United States</a></li>
-                                <li><i class="fas fa-phone"></i> <a href="tel:+98782818015">+987-828-18015</a></li>
-                                <li><i class="fas fa-envelope"></i> <a href="mailto:info@restar.com">info@restar.com</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="header-links">
-                            <div class="shape1"></div>
-                            <ul>
-                                <li><i class="fas fa-clock"></i> <b>Mondat to Friday:</b> 9:00am - 22:00pm</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sticky-wrapper">
-            <!-- Main Menu Area -->
-            <div class="menu-area">
-                <div class="container">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-auto">
-                            <div class="header-logo">
-                                <a href="index.php"><img src="assets/img/logo.svg" alt="Restar"></a>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <nav class="main-menu d-none d-lg-inline-block">
-                                <ul>
-                                    <li class="menu-item-has-children">
-                                        <a href="index.php">Home</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="index.php">Restaurant Shop</a></li>
-                                            <li><a href="home-fast-food.php">Home Fast Food</a></li>
-                                            <li><a href="home-restaurant.php">Home Restaurant</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="about.php">About Us</a></li>
-                                            <li><a href="service.php">Service</a></li>
-                                            <li><a href="service-details.php">Service Details</a></li>
-                                            <li><a href="team.php">Chef</a></li>
-                                            <li><a href="team-details.php">Chef Details</a></li>
-                                            <li><a href="reservation.php">Reservation</a></li>
-                                            <li><a href="gallery.php">Gallery</a></li>
-                                            <li><a href="error.php">Error Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Menus</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="menu-one.php">Food Menu 1</a></li>
-                                            <li><a href="menu-two.php">Food Menu 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Shop</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="shop.php">Shop</a></li>
-                                            <li><a href="shop-details.php">Shop Details</a></li>
-                                            <li><a href="cart.php">Cart Page</a></li>
-                                            <li><a href="checkout.php">Checkout</a></li>
-                                            <li><a href="wishlist.php">Wishlist</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.php">Blog</a></li>
-                                            <li><a href="blog-details.php">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="contact.php">Contact</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="col-auto">
-                            <div class="header-button">
-                                <button type="button" class="simple-icon searchBoxToggler d-none d-xl-block"><i class="fal fa-search"></i></button>
-                                <button type="button" class="simple-icon sideMenuToggler">
-                                    <span class="badge">5</span>
-                                    <i class="fal fa-cart-shopping"></i>
-                                </button>
-                                <a href="contact.php" class="th-btn style4 d-none d-xl-block">Book A Table</a>
-                                <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include "include/header.php" ?>
 
     <div id="smooth-wrapper">
-        <div id="smooth-content"><!--==============================
-    Breadcumb
-============================== -->
-            <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+        <div id="smooth-content">
+            <!--==============================
+            Breadcumb
+            ============================== -->
+            <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
                 <div class="container">
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">About Us</h1>
@@ -163,8 +50,8 @@
                 </div>
             </div>
             <!--==============================
-Feature Area  
-==============================-->
+            Feature Area  
+            ==============================-->
             <section class="space-top">
                 <div class="container z-index-common">
                     <div class="title-area text-center">
@@ -174,94 +61,69 @@ Feature Area
                     <div class="row gy-4">
                         <div class="col-xl-3 col-md-6">
                             <div class="feature-box">
-                                <div class="box-shape">
-                                    <img src="assets/img/shape/flower_7.png" alt="shape">
-                                </div>
                                 <div class="box-icon">
                                     <img src="assets/img/icon/feature_box_1.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.php">Discount Voucher</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Authentic Indian Cuisine</a></h3>
                                     <div class="text-ani">
-                                        <p class="box-text">Indulge in a gourmet journey with a menu Our chefs use the finest ingredients.</p>
+                                        <p class="box-text">Experience the rich flavors of traditional Indian dishes prepared by our expert chefs.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
                         <div class="col-xl-3 col-md-6">
                             <div class="feature-box">
-                                <div class="box-shape">
-                                    <img src="assets/img/shape/flower_7.png" alt="shape">
-                                </div>
                                 <div class="box-icon">
                                     <img src="assets/img/icon/feature_box_2.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.php">Original Recipes</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Local Community Focus</a></h3>
                                     <div class="text-ani">
-                                        <p class="box-text">Indulge in a gourmet journey with a menu Our chefs use the finest ingredients.</p>
+                                        <p class="box-text">Serving West Norwood since 1993, we're proud to be part of the local community.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
                         <div class="col-xl-3 col-md-6">
                             <div class="feature-box">
-                                <div class="box-shape">
-                                    <img src="assets/img/shape/flower_7.png" alt="shape">
-                                </div>
                                 <div class="box-icon">
                                     <img src="assets/img/icon/feature_box_3.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.php">100% Fresh Foods</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Quality Ingredients</a></h3>
                                     <div class="text-ani">
-                                        <p class="box-text">Indulge in a gourmet journey with a menu Our chefs use the finest ingredients.</p>
+                                        <p class="box-text">We use only the finest ingredients to ensure every dish is delicious and satisfying.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
                         <div class="col-xl-3 col-md-6">
                             <div class="feature-box">
-                                <div class="box-shape">
-                                    <img src="assets/img/shape/flower_7.png" alt="shape">
-                                </div>
                                 <div class="box-icon">
                                     <img src="assets/img/icon/feature_box_4.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.php">Serve On Table</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Convenient Takeaway</a></h3>
                                     <div class="text-ani">
-                                        <p class="box-text">Indulge in a gourmet journey with a menu Our chefs use the finest ingredients.</p>
+                                        <p class="box-text">Enjoy our delicious meals in the comfort of your own home with our efficient takeaway service.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </section>
             <!--==============================
-About Area  
-==============================-->
+            About Area  
+            ==============================-->
             <div class="space" id="about-sec">
-                <div class="shape-mockup jump" data-top="10%" data-right="0"><img src="assets/img/shape/flower_6.png" alt="shape" data-speed="1.15"></div>
-                <div class="shape-mockup jump" data-bottom="10%" data-right="8%"><img src="assets/img/shape/garlic_1.png" alt="shape" data-speed="1.2"></div>
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-xl-6 mb-40 mb-xl-0">
                             <div class="img-box8">
-                                <div class="shape1">
-                                    <img class="gspin" src="assets/img/shape/flower_8.png" alt="shape">
-                                </div>
                                 <div class="img1">
-                                    <img src="assets/img/normal/about_5_1.jpg" alt="Why">
+                                    <img src="assets/img/normal/about_5_1.jpg" alt="Papadom ON the Hill">
                                 </div>
                             </div>
                         </div>
@@ -269,625 +131,197 @@ About Area
                             <div class="text-center ps-xxl-5">
                                 <div class="title-area mb-35">
                                     <span class="sub-title3"><img src="assets/img/theme-img/title_icon2.svg" alt="Icon">About Our Restaurant</span>
-                                    <h2 class="sec-title title-ani">A Gastronomic Haven for the Discerning Palate</h2>
+                                    <h2 class="sec-title title-ani">A Local Indian Takeaway Since 1993</h2>
                                     <div class="text-ani">
-                                        <p class="sec-text">Indulge in a gourmet journey with menu that showcases a fusion of flavors. Our chefs use the finest ingredients to create dishes that are not just meals but unforgettable experiences.</p>
+                                        <p class="sec-text">Papadom ON the Hill has been serving the West Norwood community since 1993. We specialize in delicious Indian takeaway food prepared to satisfy every appetite. Our loyal customers know they can rely on us for authentic flavors and excellent service.</p>
                                     </div>
                                 </div>
                                 <img class="mb-40" src="assets/img/shape/line_dotted_1.svg" alt="shape">
-                                <h3 class="box-title">JOSEFINE</h3>
-                                <img src="assets/img/shape/sign.png" alt="shape">
+                                <h3 class="box-title">Mr LUKE</h3>
+                                <p>Manager since 1993</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!--==============================
-Team Area  
-==============================-->
+            Team Area  
+            ==============================-->
             <section class="bg-smoke space">
                 <div class="container z-index-common">
                     <div class="title-area text-center">
-                        <span class="sub-title3"><img src="assets/img/theme-img/title_icon2.svg" alt="Icon">Our Expert Chef</span>
-                        <h2 class="sec-title title-ani">Meet Our Professional Chefs</h2>
+                        <span class="sub-title3"><img src="assets/img/theme-img/title_icon2.svg" alt="Icon">Our Expert Team</span>
+                        <h2 class="sec-title title-ani">Meet Our Professional Staff</h2>
                     </div>
-                    <div class="slider-area">
-                        <div class="swiper th-slider has-shadow" id="teamSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"}}}'>
-                            <div class="swiper-wrapper">
-                                <!-- Single Item -->
-                                <div class="swiper-slide">
-                                    <div class="th-team team-card">
-                                        <div class="box-img">
-                                            <img src="assets/img/team/team_1_1.jpg" alt="Team">
-                                        </div>
-                                        <h3 class="box-title"><a href="team-details.php">Avroko</a></h3>
-                                        <p class="box-desig">Master Chef</p>
-                                    </div>
+                    <div class="row gy-4">
+                        <div class="col-md-4">
+                            <div class="th-team team-card">
+                                <div class="box-img">
+                                    <img src="assets/img/team/team_1_1.jpg" alt="Mr LUKE">
                                 </div>
-
-                                <!-- Single Item -->
-                                <div class="swiper-slide">
-                                    <div class="th-team team-card">
-                                        <div class="box-img">
-                                            <img src="assets/img/team/team_1_2.jpg" alt="Team">
-                                        </div>
-                                        <h3 class="box-title"><a href="team-details.php">Evan Mattew</a></h3>
-                                        <p class="box-desig">Master Chef</p>
-                                    </div>
-                                </div>
-
-                                <!-- Single Item -->
-                                <div class="swiper-slide">
-                                    <div class="th-team team-card">
-                                        <div class="box-img">
-                                            <img src="assets/img/team/team_1_3.jpg" alt="Team">
-                                        </div>
-                                        <h3 class="box-title"><a href="team-details.php">Diane Clarkson</a></h3>
-                                        <p class="box-desig">Master Chef</p>
-                                    </div>
-                                </div>
-
-                                <!-- Single Item -->
-                                <div class="swiper-slide">
-                                    <div class="th-team team-card">
-                                        <div class="box-img">
-                                            <img src="assets/img/team/team_1_4.jpg" alt="Team">
-                                        </div>
-                                        <h3 class="box-title"><a href="team-details.php">Dan Rafalin</a></h3>
-                                        <p class="box-desig">Assistant Chef</p>
-                                    </div>
-                                </div>
-
-                                <!-- Single Item -->
-                                <div class="swiper-slide">
-                                    <div class="th-team team-card">
-                                        <div class="box-img">
-                                            <img src="assets/img/team/team_1_5.jpg" alt="Team">
-                                        </div>
-                                        <h3 class="box-title"><a href="team-details.php">Harry Callum</a></h3>
-                                        <p class="box-desig">Master Chef</p>
-                                    </div>
-                                </div>
-
-                                <!-- Single Item -->
-                                <div class="swiper-slide">
-                                    <div class="th-team team-card">
-                                        <div class="box-img">
-                                            <img src="assets/img/team/team_1_6.jpg" alt="Team">
-                                        </div>
-                                        <h3 class="box-title"><a href="team-details.php">Jack Connor</a></h3>
-                                        <p class="box-desig">Master Chef</p>
-                                    </div>
-                                </div>
-
-                                <!-- Single Item -->
-                                <div class="swiper-slide">
-                                    <div class="th-team team-card">
-                                        <div class="box-img">
-                                            <img src="assets/img/team/team_1_7.jpg" alt="Team">
-                                        </div>
-                                        <h3 class="box-title"><a href="team-details.php">Sophie Tracy</a></h3>
-                                        <p class="box-desig">Master Chef</p>
-                                    </div>
-                                </div>
-
-                                <!-- Single Item -->
-                                <div class="swiper-slide">
-                                    <div class="th-team team-card">
-                                        <div class="box-img">
-                                            <img src="assets/img/team/team_1_8.jpg" alt="Team">
-                                        </div>
-                                        <h3 class="box-title"><a href="team-details.php">Ethan David</a></h3>
-                                        <p class="box-desig">Assistant Chef</p>
-                                    </div>
-                                </div>
-
+                                <h3 class="box-title">Mr LUKE</h3>
+                                <p class="box-desig">Manager</p>
                             </div>
                         </div>
-                        <button data-slider-prev="#teamSlider1" class="slider-arrow slider-prev"><span class="icon"></span></button>
-                        <button data-slider-next="#teamSlider1" class="slider-arrow slider-next"><span class="icon"></span></button>
+                        <div class="col-md-4">
+                            <div class="th-team team-card">
+                                <div class="box-img">
+                                    <img src="assets/img/team/team_1_2.jpg" alt="Mr Zakariya">
+                                </div>
+                                <h3 class="box-title">Mr Zakariya</h3>
+                                <p class="box-desig">Chef</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="th-team team-card">
+                                <div class="box-img">
+                                    <img src="assets/img/team/team_1_3.jpg" alt="Mr Buddha">
+                                </div>
+                                <h3 class="box-title">Mr Buddha</h3>
+                                <p class="box-desig">Customer Service</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
             <!--==============================
-Counter Area  
-==============================-->
+            Counter Area  
+            ==============================-->
             <div class="space-extra" data-bg-color="#DD5903">
                 <div class="container pt-10 pb-10">
                     <div class="counter-card-wrap">
                         <div class="counter-card title-ani">
-                            <div class="box-shadow">2.8k</div>
-                            <h2 class="box-number text-white"><span class="counter-number">2.8</span>k</h2>
-                            <p class="box-text">Our Dally Order</p>
+                            <h2 class="box-number text-white"><span class="counter-number">30</span>+</h2>
+                            <p class="box-text">Years of Service</p>
                         </div>
                         <div class="counter-card title-ani">
-                            <div class="box-shadow">28</div>
-                            <h2 class="box-number text-white"><span class="counter-number">28</span></h2>
-                            <p class="box-text">Specialist Chef</p>
+                            <h2 class="box-number text-white"><span class="counter-number">1000</span>+</h2>
+                            <p class="box-text">Satisfied Customers</p>
                         </div>
                         <div class="counter-card title-ani">
-                            <div class="box-shadow">139</div>
-                            <h2 class="box-number text-white"><span class="counter-number">139</span></h2>
-                            <p class="box-text">Our Menu & Dish</p>
+                            <h2 class="box-number text-white"><span class="counter-number">50</span>+</h2>
+                            <p class="box-text">Menu Items</p>
                         </div>
                         <div class="counter-card title-ani">
-                            <div class="box-shadow">99</div>
-                            <h2 class="box-number text-white"><span class="counter-number">99</span></h2>
-                            <p class="box-text">Our Members</p>
-                        </div>
-                        <div class="counter-card title-ani">
-                            <div class="box-shadow">39</div>
-                            <h2 class="box-number text-white"><span class="counter-number">39</span></h2>
-                            <p class="box-text">Won the Awards</p>
+                            <h2 class="box-number text-white"><span class="counter-number">3</span></h2>
+                            <p class="box-text">Expert Staff Members</p>
                         </div>
                     </div>
                 </div>
             </div>
             <!--==============================
-Testimonial Area  
-==============================-->
-            <section class="overflow-hidden space" id="testi-sec">
-                <div class="container">
-                    <div class="slider-area testi-grid-area">
-                        <div class="swiper th-slider thumb-slider2 slider-tab" id="thumb-slider2" data-slider-options='{"loop":true,"centeredSlides":true,"slideToClickedSlide":true,"watchSlidesVisibility":true,"watchSlidesProgress":true,"centeredSlidesBounds":true,"slidesPerView":3,"breakpoints":{"0":{"spaceBetween":30},"992":{"spaceBetween":80}}}'>
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="tab-btn">
-                                        <img src="assets/img/testimonial/testi_3_1.jpg" alt="Image">
-                                        <span class="box-quote"></span>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="tab-btn">
-                                        <img src="assets/img/testimonial/testi_3_2.jpg" alt="Image">
-                                        <span class="box-quote"></span>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="tab-btn">
-                                        <img src="assets/img/testimonial/testi_3_3.jpg" alt="Image">
-                                        <span class="box-quote"></span>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="tab-btn">
-                                        <img src="assets/img/testimonial/testi_3_4.jpg" alt="Image">
-                                        <span class="box-quote"></span>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="tab-btn">
-                                        <img src="assets/img/testimonial/testi_3_5.jpg" alt="Image">
-                                        <span class="box-quote"></span>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="tab-btn">
-                                        <img src="assets/img/testimonial/testi_3_6.jpg" alt="Image">
-                                        <span class="box-quote"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper th-slider testi-grid-slider tab-view" id="testiSlider3" data-slider-options='{"thumbs":{"swiper":".thumb-slider2"}}'>
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="testi-grid">
-                                        <p class="box-text">From crispy and golden fries to mouthwatering burgers and wraps, our menu offers a variety of fast-food favorites. Each item is crafted with quality ingredients to ensure a tasty experience with every order. Enjoy your quick meal in a casual and friendly setting. our welcoming atmosphere makes every visit enjoyable.</p>
-                                        <h3 class="box-title">Alex Fernandes</h3>
-                                        <p class="box-desig">Master Chef</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testi-grid">
-                                        <p class="box-text">From crispy and golden fries to mouthwatering burgers and wraps, our menu offers a variety of fast-food favorites. Each item is crafted with quality ingredients to ensure a tasty experience with every order. Enjoy your quick meal in a casual and friendly setting. our welcoming atmosphere makes every visit enjoyable.</p>
-                                        <h3 class="box-title">Jasemin Jui</h3>
-                                        <p class="box-desig">Customer</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testi-grid">
-                                        <p class="box-text">From crispy and golden fries to mouthwatering burgers and wraps, our menu offers a variety of fast-food favorites. Each item is crafted with quality ingredients to ensure a tasty experience with every order. Enjoy your quick meal in a casual and friendly setting. our welcoming atmosphere makes every visit enjoyable.</p>
-                                        <h3 class="box-title">Martin Danial</h3>
-                                        <p class="box-desig">Director</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testi-grid">
-                                        <p class="box-text">From crispy and golden fries to mouthwatering burgers and wraps, our menu offers a variety of fast-food favorites. Each item is crafted with quality ingredients to ensure a tasty experience with every order. Enjoy your quick meal in a casual and friendly setting. our welcoming atmosphere makes every visit enjoyable.</p>
-                                        <h3 class="box-title">Fernandes John</h3>
-                                        <p class="box-desig">Food Specialist</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testi-grid">
-                                        <p class="box-text">From crispy and golden fries to mouthwatering burgers and wraps, our menu offers a variety of fast-food favorites. Each item is crafted with quality ingredients to ensure a tasty experience with every order. Enjoy your quick meal in a casual and friendly setting. our welcoming atmosphere makes every visit enjoyable.</p>
-                                        <h3 class="box-title">Termain Justin</h3>
-                                        <p class="box-desig">Director</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testi-grid">
-                                        <p class="box-text">From crispy and golden fries to mouthwatering burgers and wraps, our menu offers a variety of fast-food favorites. Each item is crafted with quality ingredients to ensure a tasty experience with every order. Enjoy your quick meal in a casual and friendly setting. our welcoming atmosphere makes every visit enjoyable.</p>
-                                        <h3 class="box-title">Rohan Ramdan</h3>
-                                        <p class="box-desig">Food Specialist</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button data-slider-prev="#testiSlider3, #thumb-slider2" class="slider-arrow slider-prev"><span class="icon"></span></button>
-                        <button data-slider-next="#testiSlider3, #thumb-slider2" class="slider-arrow slider-next"><span class="icon"></span></button>
-                    </div>
-                </div>
-            </section>
+            Testimonial Area  
+            ==============================-->
+            <!-- [Testimonial section removed as no specific testimonials were provided] -->
             <!--==============================
-History Area  
-==============================-->
-            <div class="">
-                <div class="container">
-                    <div class="th-video video-box1 flipY" data-pos-for="#story-sec" data-sec-pos="bottom-half">
-                        <img src="assets/img/normal/video_1.jpg" alt="video">
-                        <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style2 popup-video"><i class="fas fa-play"></i></a>
-                    </div>
-                </div>
-            </div>
+            History Area  
+            ==============================-->
             <div class="space" id="story-sec" data-bg-src="assets/img/bg/square_pattern4.jpg">
                 <div class="container">
                     <div class="title-area text-center">
-                        <span class="sub-title3"><img src="assets/img/theme-img/title_icon2.svg" alt="Icon">About Story</span>
-                        <h2 class="sec-title title-ani text-white">About Our Journey Story</h2>
+                        <span class="sub-title3"><img src="assets/img/theme-img/title_icon2.svg" alt="Icon">Our Story</span>
+                        <h2 class="sec-title title-ani text-white">Our Journey Since 1993</h2>
                     </div>
                     <div class="row story-box-row">
                         <div class="col-lg-3 col-sm-6">
-                            <div class="story-box ">
-                                <div class="box-img" data-mask-src="assets/img/bg/story_bg_mask.png">
-                                    <img src="assets/img/normal/story_1_1.jpg" alt="image">
-                                </div>
+                            <div class="story-box">
                                 <div class="box-content text-ani">
-                                    <h3 class="box-title">January 2020</h3>
-                                    <p class="box-text">Our restaurant is a haven for food enthusiasts seeking an elevated dining experience.</p>
+                                    <h3 class="box-title">1993</h3>
+                                    <p class="box-text">Papadom ON the Hill opens its doors in West Norwood.</p>
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-lg-3 col-sm-6">
                             <div class="story-box even">
-                                <div class="box-img" data-mask-src="assets/img/bg/story_bg_mask.png">
-                                    <img src="assets/img/normal/story_1_2.jpg" alt="image">
-                                </div>
                                 <div class="box-content text-ani">
-                                    <h3 class="box-title">February 2021</h3>
-                                    <p class="box-text">Our restaurant is a haven for food enthusiasts seeking an elevated dining experience.</p>
+                                    <h3 class="box-title">2003</h3>
+                                    <p class="box-text">Celebrating 10 years of serving the community.</p>
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-lg-3 col-sm-6">
-                            <div class="story-box ">
-                                <div class="box-img" data-mask-src="assets/img/bg/story_bg_mask.png">
-                                    <img src="assets/img/normal/story_1_3.jpg" alt="image">
-                                </div>
+                            <div class="story-box">
                                 <div class="box-content text-ani">
-                                    <h3 class="box-title">March 2022</h3>
-                                    <p class="box-text">Our restaurant is a haven for food enthusiasts seeking an elevated dining experience.</p>
+                                    <h3 class="box-title">2013</h3>
+                                    <p class="box-text">20th anniversary and menu expansion.</p>
                                 </div>
                             </div>
                         </div>
-
                         <div class="col-lg-3 col-sm-6">
                             <div class="story-box even">
-                                <div class="box-img" data-mask-src="assets/img/bg/story_bg_mask.png">
-                                    <img src="assets/img/normal/story_1_4.jpg" alt="image">
-                                </div>
                                 <div class="box-content text-ani">
-                                    <h3 class="box-title">April 2023</h3>
-                                    <p class="box-text">Our restaurant is a haven for food enthusiasts seeking an elevated dining experience.</p>
+                                    <h3 class="box-title">2023</h3>
+                                    <p class="box-text">30 years of excellence in Indian cuisine.</p>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
-
             <!--==============================
-Delivery Area  
-==============================-->
+            Delivery Area  
+            ==============================-->
             <div class="overflow-hidden space">
                 <div class="container">
                     <div class="row align-items-center flex-row-reverse">
                         <div class="col-xl-7 mb-25 mb-xl-0">
                             <div class="img-box7">
-                                <div class="shape1">
-                                    <img class="flipX" src="assets/img/normal/delivery_2.png" alt="shape">
-                                </div>
                                 <div class="img1 flipY">
-                                    <img src="assets/img/normal/delivery_1.png" alt="Why">
+                                    <img src="assets/img/normal/delivery_1.png" alt="Delivery">
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-5 text-center text-xl-start">
                             <div class="title-area mb-35">
                                 <span class="sub-title3"><img src="assets/img/theme-img/title_icon2.svg" alt="Icon">Food Delivery</span>
-                                <h2 class="sec-title">Where Good Food Meets Fast Delivery</h2>
+                                <h2 class="sec-title">Authentic Indian Flavors, Delivered to Your Door</h2>
                                 <div class="text-ani">
-                                    <p class="sec-text">Indulge in a gourmet journey with a menu that showcases a fusion of flavors. Our chefs use the finest ingredients to create dishes that are not just meals but unforgettable experiences.</p>
+                                    <p class="sec-text">Enjoy our delicious Indian cuisine in the comfort of your home. We offer quick and efficient takeaway services to ensure your food arrives hot and fresh.</p>
                                 </div>
                             </div>
                             <div class="check-feature-wrap">
                                 <div class="check-feature text-ani">
                                     <i class="fa-solid fa-badge-check"></i>
-                                    Delivery In 30 Minutes
+                                    Fast Local Delivery
                                 </div>
                                 <div class="check-feature text-ani">
                                     <i class="fa-solid fa-badge-check"></i>
-                                    Free Shipping $50.00
+                                    Open 6 Days a Week
                                 </div>
                                 <div class="check-feature text-ani">
                                     <i class="fa-solid fa-badge-check"></i>
-                                    Delivery On Doorstep
+                                    Extensive Menu Options
                                 </div>
                                 <div class="check-feature text-ani">
                                     <i class="fa-solid fa-badge-check"></i>
-                                    On the Way Tracing
+                                    Quality Ingredients
                                 </div>
                             </div>
                             <div class="text-ani">
-                                <a href="shop.php" class="th-btn style-border">Order Now</a>
+                                <a href="menu.php" class="th-btn style-border">Order Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!--==============================
-Brand Area  
-==============================-->
-            <div class="space-bottom">
-                <div class="container brand-container">
-                    <div class="swiper th-slider" id="brandSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"4"},"1300":{"slidesPerView":"5"},"1500":{"slidesPerView":"7"}}}'>
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="brand-box">
-                                    <img src="assets/img/brand/brand_1_1.svg" alt="Brand Logo">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-box">
-                                    <img src="assets/img/brand/brand_1_2.svg" alt="Brand Logo">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-box">
-                                    <img src="assets/img/brand/brand_1_3.svg" alt="Brand Logo">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-box">
-                                    <img src="assets/img/brand/brand_1_4.svg" alt="Brand Logo">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-box">
-                                    <img src="assets/img/brand/brand_1_5.svg" alt="Brand Logo">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-box">
-                                    <img src="assets/img/brand/brand_1_6.svg" alt="Brand Logo">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-box">
-                                    <img src="assets/img/brand/brand_1_7.svg" alt="Brand Logo">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-box">
-                                    <img src="assets/img/brand/brand_1_1.svg" alt="Brand Logo">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-box">
-                                    <img src="assets/img/brand/brand_1_2.svg" alt="Brand Logo">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-box">
-                                    <img src="assets/img/brand/brand_1_3.svg" alt="Brand Logo">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-box">
-                                    <img src="assets/img/brand/brand_1_4.svg" alt="Brand Logo">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-box">
-                                    <img src="assets/img/brand/brand_1_5.svg" alt="Brand Logo">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-box">
-                                    <img src="assets/img/brand/brand_1_6.svg" alt="Brand Logo">
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="brand-box">
-                                    <img src="assets/img/brand/brand_1_7.svg" alt="Brand Logo">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--==============================
-	Footer Area
-==============================-->
-            <footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/bg/footer_bg_1.jpg">
-                <div class="widget-area">
-                    <div class="container">
-                        <div class="row justify-content-between">
-                            <div class="col-md-6 col-xl-auto">
-                                <div class="widget footer-widget">
-                                    <div class="th-widget-about">
-                                        <div class="about-logo">
-                                            <a href="index.php"><img src="assets/img/logo-footer.svg" alt="Restar"></a>
-                                        </div>
-                                        <p class="about-text">We believe that great food shouldn't break the bank. That's why we offer affordable options without compromising on taste.</p>
-                                        <div class="th-social">
-                                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-xl-auto">
-                                <div class="widget widget_nav_menu footer-widget">
-                                    <h3 class="widget_title">Quick Links</h3>
-                                    <div class="menu-all-pages-container">
-                                        <ul class="menu">
-                                            <li><a href="team.php">Team Member</a></li>
-                                            <li><a href="about.php">Testimonials</a></li>
-                                            <li><a href="about.php">Company History</a></li>
-                                            <li><a href="contact.php">Need a Career?</a></li>
-                                            <li><a href="faq.php">FAQs</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-
-
-
-
-
-
-
-
-
-                            </div>
-                            <div class="col-md-6 col-xl-auto">
-                                <div class="widget widget_nav_menu footer-widget">
-                                    <h3 class="widget_title">Food Menu</h3>
-                                    <div class="menu-all-pages-container">
-                                        <ul class="menu">
-                                            <li><a href="shop.php">White Castle</a></li>
-                                            <li><a href="shop.php">Beef Sandwich</a></li>
-                                            <li><a href="shop.php">Cherry Limeade</a></li>
-                                            <li><a href="shop.php">Sandwich</a></li>
-                                            <li><a href="shop.php">Pumpkin Spice</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-
-
-
-                            </div>
-                            <div class="col-md-6 col-xl-auto">
-                                <div class="widget footer-widget">
-                                    <h3 class="widget_title">Get In Touch</h3>
-                                    <div class="th-widget-contact">
-                                        <div class="info-box">
-                                            <h4 class="box-title">Address Location</h4>
-                                            <div class="box-content">
-                                                <div class="box-icon">
-                                                    <i class="fas fa-location-dot"></i>
-                                                </div>
-                                                <p class="box-text">138 MacArthur Ave, USA</p>
-                                            </div>
-                                        </div>
-                                        <div class="info-box">
-                                            <h4 class="box-title">Phone Number</h4>
-                                            <div class="box-content">
-                                                <div class="box-icon">
-                                                    <i class="fas fa-phone"></i>
-                                                </div>
-                                                <p class="box-text"><a href="tel:+16326543564">+(163)-2654-3564</a></p>
-                                            </div>
-                                        </div>
-                                        <div class="info-box">
-                                            <h4 class="box-title">Email address</h4>
-                                            <div class="box-content">
-                                                <div class="box-icon">
-                                                    <i class="fas fa-envelope"></i>
-                                                </div>
-                                                <p class="box-text"><a href="mailto:info@restar.com">info@restar.com</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="copyright-wrap">
-                    <div class="container">
-                        <div class="row gx-1 gy-2 align-items-center">
-                            <div class="col-md-7">
-                                <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a href="index.php">Restar</a>. All Rights Reserved.</p>
-                            </div>
-                            <div class="col-md-5 text-center text-md-end">
-                                <div class="footer-links">
-                                    <ul>
-                                        <li><a href="about.php">Terms & Condition</a></li>
-                                        <li><a href="about.php">Privacy & Policy</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-
-            <!--********************************
-			Code End  Here 
-	******************************** -->
-
-            <!-- Smooth scroller -->
+            Footer Area
+            ==============================-->
+            <?php include "include/footer.php" ?>
         </div>
     </div>
-
-
 
     <!-- Scroll To Top -->
     <div class="scroll-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+            <path d="M50,1 a49,49 0 0,10,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
         </svg>
     </div>
 
-
-
     <!--==============================
     All Js File
-============================== -->
-    <!-- Jquery -->
-    <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
-    <!-- Swiper Js -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Magnific Popup -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- Counter Up -->
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <!-- Date Time -->
-    <script src="assets/js/jquery.datetimepicker.min.js"></script>
-    <!-- Isotope Filter -->
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-
-    <!-- Gsap Animation -->
-    <script src="assets/js/gsap.min.js"></script>
-    <script src="assets/js/ScrollTrigger.min.js"></script>
-    <script src="assets/js/ScrollToPlugin.min.js"></script>
-    <script src="assets/js/ScrollSmoother.min.js"></script>
-    <script src="assets/js/SplitText.min.js"></script>
-
-    <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    ============================== -->
+    <?php include "include/script.php" ?>
 </body>
 
 </html>
