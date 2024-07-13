@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Restar - Fast Food & Restaurant HTML Template - Restaurant Shop</title>
-    <?php include "include/main.php" ?>
+    <?php include  "include/main.php"; ?>
 
 </head>
 
