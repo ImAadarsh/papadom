@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Papadom On The Hill - Indian Takeaway in West Norwood</title>
+    <title>Papadom On The Hill - Indian & Nepalese Takeaway in West Norwood</title>
     <?php include  "include/main.php"; ?>
 </head>
 
@@ -47,10 +47,10 @@
                                     </div>
                                     <div class="hero-img">
                                         <div class="shape1" data-ani="slideinup" data-ani-delay="0.5s">
-                                        <img src="assets/img/hero/hero_shape_3_3.png" alt="shape">
+                                        <img src="assets/img/hero/hero_shape_3_3.png" alt="shape2">
                                         </div>
                                         <div class="offer" data-ani="slideinup" data-ani-delay="0.4s">
-                                            <img src="assets/img/images/hero_offer_1.svg" alt="shape">
+                                        <img src="assets/img/hero/hero_offer_1.svg" alt="shape">
                                         </div>
                                         <div class="img1" data-ani="slideinright" data-ani-delay="0.1s">
                                             <img src="assets/img/images/slides/slide_1.png" alt="Image">
@@ -63,9 +63,9 @@
                                     <div class="hero-overlay" data-ani="slideinright" data-ani-delay="0.7s"></div>
                                     <div class="container th-container">
                                         <div class="hero-style3">
-                                            <span class="hero-subtitle text-center" data-ani="slideinup" data-ani-delay="0.2s">Healthy & Quality</span>
-                                            <h1 class="hero-title4" data-ani="slideinup" data-ani-delay="0.4s">Qualified</h1>
-                                            <h2 class="hero-title3" data-ani="slideinup" data-ani-delay="0.5s">Food Chart</h2>
+                                            <span class="hero-subtitle text-center" data-ani="slideinup" data-ani-delay="0.2s">Authentic & Delicious</span>
+                                            <h1 class="hero-title4" data-ani="slideinup" data-ani-delay="0.4s">Indian</h1>
+                                            <h2 class="hero-title3" data-ani="slideinup" data-ani-delay="0.5s">Takeaway</h2>
                                             <a href="menu.php" class="th-btn" data-ani="slideinup" data-ani-delay="0.7s">Order Now</a>
                                         </div>
                                     </div>
@@ -87,9 +87,9 @@
                                     <div class="hero-overlay" data-ani="slideinright" data-ani-delay="0.7s"></div>
                                     <div class="container th-container">
                                         <div class="hero-style3">
-                                            <span class="hero-subtitle text-center" data-ani="slideinup" data-ani-delay="0.2s">Healthy & Quality</span>
-                                            <h1 class="hero-title4" data-ani="slideinup" data-ani-delay="0.4s">Fast Food</h1>
-                                            <h2 class="hero-title3" data-ani="slideinup" data-ani-delay="0.5s">Food Menu</h2>
+                                            <span class="hero-subtitle text-center" data-ani="slideinup" data-ani-delay="0.2s">Serving Since 1993</span>
+                                            <h1 class="hero-title4" data-ani="slideinup" data-ani-delay="0.4s">London's</h1>
+                                            <h2 class="hero-title3" data-ani="slideinup" data-ani-delay="0.5s">Favorite</h2>
                                             <a href="menu.php" class="th-btn" data-ani="slideinup" data-ani-delay="0.7s">Order Now</a>
                                         </div>
                                     </div>
@@ -381,13 +381,12 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat3">
                             <div class="th-product product-grid">
                                 <div class="product-img transparent-img">
-                                    <img src="assets/img/product/product_1_1.png" alt="Chicken Tikka">
+                                    <img src="dishes/1.png" alt="Chicken Tikka">
                                     <span class="product-tag">Chef's Special</span>
                                     <div class="actions">
-                                        <a href="#QuickView" class="icon-btn popup-content"><i
-                                                class="far fa-eye"></i></a>
+                                        
                                         <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="menu.php" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
@@ -403,12 +402,11 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat1 cat2">
                             <div class="th-product product-grid">
                                 <div class="product-img transparent-img">
-                                    <img src="assets/img/product/product_1_2.png" alt="Onion Bhaji">
+                                    <img src="dishes/2.png" alt="Onion Bhaji">
                                     <div class="actions">
-                                        <a href="#QuickView" class="icon-btn popup-content"><i
-                                                class="far fa-eye"></i></a>
+                                        
                                         <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="menu.php" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
@@ -424,13 +422,12 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat1 cat3">
                             <div class="th-product product-grid">
                                 <div class="product-img transparent-img">
-                                    <img src="assets/img/product/product_1_3.png" alt="Lamb Biryani">
+                                    <img src="dishes/3.png" alt="Lamb Biryani">
                                     <span class="product-tag">Popular</span>
                                     <div class="actions">
-                                        <a href="#QuickView" class="icon-btn popup-content"><i
-                                                class="far fa-eye"></i></a>
+                                        
                                         <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="menu.php" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
@@ -446,13 +443,12 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat3">
                             <div class="th-product product-grid">
                                 <div class="product-img transparent-img">
-                                    <img src="assets/img/product/product_1_4.png" alt="Vegetable Curry">
+                                    <img src="dishes/4.png" alt="Vegetable Curry">
                                     <span class="product-tag">Vegetarian</span>
                                     <div class="actions">
-                                        <a href="#QuickView" class="icon-btn popup-content"><i
-                                                class="far fa-eye"></i></a>
+                                        
                                         <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
-                                        <a href="wishlist.php" class="icon-btn"><i class="far fa-heart"></i></a>
+                                        <a href="menu.php" class="icon-btn"><i class="far fa-heart"></i></a>
                                     </div>
                                 </div>
                                 <div class="product-content">
@@ -486,7 +482,7 @@
                                 <div class="img1">
                                     <img src="images/deal.png" alt="Food">
                                 </div>
-                                <h4 class="price" data-bg-src="assets/img/bg/shape_bg_2.svg">£10.40</h4>
+                                <h4 class="price" data-bg-src="assets/img/bg/shape_bg_2.svg">£16.95</h4>
                             </div>
                         </div>
                         <div class="col-lg-6 pt-40 pb-40">
@@ -745,21 +741,21 @@
                 <div class="container z-index-common mt-negative">
                     <div class="row offer-box-row">
                         <div class="col-xl-4 col-md-6">
-                            <div class="offer-box mega-hover" data-bg-src="assets/img/bg/cta_bg_41.jpg">
+                            <div class="offer-box mega-hover" data-bg-src="dishes/offer_box1.png">
                                 <h3 class="box-title title-ani2">TANDOORI</h3>
                                 <p class="box-text title-ani2">20% Off on All Tandoori Dishes</p>
                                 <a href="menu.php" class="line-btn title-ani2">Order Now</a>
                             </div>
                         </div>
                         <div class="col-xl-4 col-md-6">
-                            <div class="offer-box mega-hover" data-bg-src="assets/img/bg/cta_bg_42.jpg">
+                            <div class="offer-box mega-hover" data-bg-src="dishes/offer_box2.png">
                                 <h3 class="box-title title-ani2">BIRYANI</h3>
                                 <p class="box-text title-ani2">Free Raita with Every Biryani</p>
                                 <a href="menu.php" class="line-btn title-ani2">Order Now</a>
                             </div>
                         </div>
                         <div class="col-xl-4 col-md-6">
-                            <div class="offer-box mega-hover" data-bg-src="assets/img/bg/cta_bg_43.jpg">
+                            <div class="offer-box mega-hover" data-bg-src="dishes/offer_box3.png">
                                 <h3 class="box-title title-ani2">VEGETARIAN</h3>
                                 <p class="box-text title-ani2">15% Off on Vegetarian Mains</p>
                                 <a href="menu.php" class="line-btn title-ani2">Order Now</a>

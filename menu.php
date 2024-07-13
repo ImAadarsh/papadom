@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Restar - Fast Food & Restaurant HTML Template - Contact Us</title>
+    <title>Pappadom On The Hill - Menu | Order Now</title>
 <?php include "include/main.php" ?>
 
 </head>
