@@ -394,7 +394,7 @@
                                     <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                         <span>Rated <strong class="rating">5.00</strong> out of 5</span>
                                     </div>
-                                    <h3 class="product-title"><a href="shop-details.php">Chicken Tikka</a></h3>
+                                    <h3 class="product-title"><a href="menu.php">Chicken Tikka</a></h3>
                                     <span class="price">£8.95</span>
                                 </div>
                             </div>
@@ -415,7 +415,7 @@
                                     <div class="star-rating" role="img" aria-label="Rated 4.50 out of 5">
                                         <span>Rated <strong class="rating">4.50</strong> out of 5</span>
                                     </div>
-                                    <h3 class="product-title"><a href="shop-details.php">Onion Bhaji</a></h3>
+                                    <h3 class="product-title"><a href="menu.php">Onion Bhaji</a></h3>
                                     <span class="price">£4.95</span>
                                 </div>
                             </div>
@@ -437,7 +437,7 @@
                                     <div class="star-rating" role="img" aria-label="Rated 4.75 out of 5">
                                         <span>Rated <strong class="rating">4.75</strong> out of 5</span>
                                     </div>
-                                    <h3 class="product-title"><a href="shop-details.php">Lamb Biryani</a></h3>
+                                    <h3 class="product-title"><a href="menu.php">Lamb Biryani</a></h3>
                                     <span class="price">£9.95</span>
                                 </div>
                             </div>
@@ -459,7 +459,7 @@
                                     <div class="star-rating" role="img" aria-label="Rated 4.25 out of 5">
                                         <span>Rated <strong class="rating">4.25</strong> out of 5</span>
                                     </div>
-                                    <h3 class="product-title"><a href="shop-details.php">Vegetable Curry</a></h3>
+                                    <h3 class="product-title"><a href="menu.php">Vegetable Curry</a></h3>
                                     <span class="price">£7.95</span>
                                 </div>
                             </div>
@@ -571,13 +571,13 @@
                             <div class="menu-list-block">
                                 <div class="menu-list">
                                     <div class="box-img">
-                                        <img src="assets/img/product/menu_thumb_1.png" alt="Chicken Tikka Masala">
+                                        <img src="smalldishes/1.png" alt="Chicken Tikka Masala">
                                         <div class="actions">
                                             <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="shop-details.php">Chicken Tikka Masala</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Chicken Tikka Masala</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Tender chicken in a rich tomato-based sauce</p>
                                             <div class="box-line"></div>
@@ -587,13 +587,13 @@
                                 </div>
                                 <div class="menu-list">
                                     <div class="box-img">
-                                        <img src="assets/img/product/menu_thumb_2.png" alt="Lamb Rogan Josh">
+                                        <img src="smalldishes/2.png" alt="Lamb Rogan Josh">
                                         <div class="actions">
                                             <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="shop-details.php">Lamb Rogan Josh</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Lamb Rogan Josh</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Aromatic lamb curry with a blend of spices</p>
                                             <div class="box-line"></div>
@@ -603,13 +603,13 @@
                                 </div>
                                 <div class="menu-list">
                                     <div class="box-img">
-                                        <img src="assets/img/product/menu_thumb_3.png" alt="Vegetable Biryani">
+                                        <img src="smalldishes/3.png" alt="Vegetable Biryani">
                                         <div class="actions">
                                             <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="shop-details.php">Vegetable Biryani</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Vegetable Biryani</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Fragrant rice dish with mixed vegetables</p>
                                             <div class="box-line"></div>
@@ -619,13 +619,13 @@
                                 </div>
                                 <div class="menu-list">
                                     <div class="box-img">
-                                        <img src="assets/img/product/menu_thumb_4.png" alt="Prawn Curry">
+                                        <img src="smalldishes/4.png" alt="Prawn Curry">
                                         <div class="actions">
                                             <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="shop-details.php">Prawn Curry</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Prawn Curry</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Succulent prawns in a spicy coconut sauce</p>
                                             <div class="box-line"></div>
@@ -635,13 +635,13 @@
                                 </div>
                                 <div class="menu-list">
                                     <div class="box-img">
-                                        <img src="assets/img/product/menu_thumb_5.png" alt="Butter Chicken">
+                                        <img src="smalldishes/5.png" alt="Butter Chicken">
                                         <div class="actions">
                                             <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="shop-details.php">Butter Chicken</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Butter Chicken</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Creamy tomato-based curry with tender chicken</p>
                                             <div class="box-line"></div>
@@ -655,13 +655,13 @@
                             <div class="menu-list-block">
                                 <div class="menu-list">
                                     <div class="box-img">
-                                        <img src="assets/img/product/menu_thumb_7.png" alt="Palak Paneer">
+                                        <img src="smalldishes/6.png" alt="Palak Paneer">
                                         <div class="actions">
                                             <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="shop-details.php">Palak Paneer</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Palak Paneer</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Cottage cheese cubes in a creamy spinach sauce</p>
                                             <div class="box-line"></div>
@@ -671,13 +671,13 @@
                                 </div>
                                 <div class="menu-list">
                                     <div class="box-img">
-                                        <img src="assets/img/product/menu_thumb_8.png" alt="Tandoori Mixed Grill">
+                                        <img src="smalldishes/7.png" alt="Tandoori Mixed Grill">
                                         <div class="actions">
                                             <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="shop-details.php">Tandoori Mixed Grill</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Tandoori Mixed Grill</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Assortment of tandoori-cooked meats</p>
                                             <div class="box-line"></div>
@@ -687,13 +687,13 @@
                                 </div>
                                 <div class="menu-list">
                                     <div class="box-img">
-                                        <img src="assets/img/product/menu_thumb_9.png" alt="Chana Masala">
+                                        <img src="smalldishes/8.png" alt="Chana Masala">
                                         <div class="actions">
                                             <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="shop-details.php">Chana Masala</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Chana Masala</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Spiced chickpeas in a tangy tomato sauce</p>
                                             <div class="box-line"></div>
@@ -703,13 +703,13 @@
                                 </div>
                                 <div class="menu-list">
                                     <div class="box-img">
-                                        <img src="assets/img/product/menu_thumb_10.png" alt="Garlic Naan">
+                                        <img src="smalldishes/9.png" alt="Garlic Naan">
                                         <div class="actions">
                                             <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="shop-details.php">Garlic Naan</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Garlic Naan</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Soft flatbread topped with garlic and herbs</p>
                                             <div class="box-line"></div>
@@ -719,13 +719,13 @@
                                 </div>
                                 <div class="menu-list">
                                     <div class="box-img">
-                                        <img src="assets/img/product/menu_thumb_11.png" alt="Mango Lassi">
+                                        <img src="smalldishes/10.png" alt="Mango Lassi">
                                         <div class="actions">
                                             <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="shop-details.php">Mango Lassi</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Mango Lassi</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Refreshing yogurt-based mango drink</p>
                                             <div class="box-line"></div>
