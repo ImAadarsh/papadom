@@ -5,55 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Restar - Fast Food & Restaurant HTML Template - Restaurant</title>
-    <meta name="author" content="Restar">
-    <meta name="description" content="Restar - Fast Food & Restaurant HTML Template">
-    <meta name="keywords" content="Restar - Fast Food & Restaurant HTML Template">
-    <meta name="robots" content="INDEX,FOLLOW">
-
-    <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Favicons - Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-
-    <!--==============================
-	  Google Fonts
-	============================== -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
-
-    <!--==============================
-	    All CSS File
-	============================== -->
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-    <!-- Date Time -->
-    <link rel="stylesheet" href="assets/css/jquery.datetimepicker.min.css">
-    <!-- Swiper Js -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+<?php include "include/main.php" ?>
 
 </head>
 
@@ -74,127 +26,13 @@
     <!--==============================
      Preloader
   ==============================-->
-    <div class="preloader ">
-        <button class="th-btn preloaderCls">Cancel Preloader </button>
-        <div class="preloader-inner">
-            <div class="loader">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div><!--==============================
+    <!--==============================
 Product Lightbox
 ==============================-->
-    <div id="QuickView" class="white-popup mfp-hide">
-        <div class="container bg-white">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="product-big-img transparent-img">
-                        <div class="img"><img src="assets/img/product/product_1_5.png" alt="Product Image"></div>
-                    </div>
-                </div>
-                <div class="col-lg-6 align-self-center">
-                    <div class="product-about">
-                        <p class="price">$20.85<del>$25.99</del></p>
-                        <h2 class="product-title">Salmon Beef Stack</h2>
-                        <div class="product-rating">
-                            <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span></div>
-                            <a href="shop-details.html" class="woocommerce-review-link">(<span class="count">4</span> customer reviews)</a>
-                        </div>
-                        <p class="text">The registration fee covers access to all conference sessions, workshops, networking events, exhibition areas, and conference materials. Please refer to the registration page for a detailed breakdown of inclusions. You can make payments through our secure online registration.</p>
-                        <div class="mt-2 link-inherit">
-                            <p>
-                                <strong class="text-title me-3">Availability:</strong>
-                                <span class="stock in-stock"><i class="far fa-check-square me-2 ms-1"></i>In Stock</span>
-                            </p>
-                        </div>
-                        <div class="actions">
-                            <div class="quantity">
-                                <input type="number" class="qty-input" step="1" min="1" max="100" name="quantity" value="1" title="Qty">
-                                <button class="quantity-plus qty-btn"><i class="far fa-chevron-up"></i></button>
-                                <button class="quantity-minus qty-btn"><i class="far fa-chevron-down"></i></button>
-                            </div>
-                            <button class="th-btn">Add to Cart</button>
-                            <a href="wishlist.html" class="icon-btn"><i class="far fa-heart"></i></a>
-                        </div>
-                        <div class="product_meta">
-                            <span class="sku_wrapper">SKU: <span class="sku">Salmon-Beef-Stack</span></span>
-                            <span class="posted_in">Category: <a href="shop.html">Dinner Food</a></span>
-                            <span>Tags: <a href="shop.html">Lunch</a><a href="shop.html">Dinner</a><a href="shop.html">Food</a></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button title="Close (Esc)" type="button" class="mfp-close">×</button>
-        </div>
-    </div><!--==============================
+    <!--==============================
     Sidemenu
 ============================== -->
-    <div class="sidemenu-wrapper sidemenu-cart ">
-        <div class="sidemenu-content">
-            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
-            <div class="widget woocommerce widget_shopping_cart">
-                <h3 class="widget_title">Shopping cart</h3>
-                <div class="widget_shopping_cart_content">
-                    <ul class="woocommerce-mini-cart cart_list product_list_widget ">
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/menu_thumb_1.png" alt="Cart Image">Egg and Cocumber</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>940.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/menu_thumb_2.png" alt="Cart Image">Tofu Red Chili</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>899.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/menu_thumb_3.png" alt="Cart Image">Raw Salmon Salad</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>756.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/menu_thumb_4.png" alt="Cart Image">Salmon Beef Stack</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>723.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/menu_thumb_5.png" alt="Cart Image">Paper Letter Printing</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>1080.00</span>
-                            </span>
-                        </li>
-                    </ul>
-                    <p class="woocommerce-mini-cart__total total">
-                        <strong>Subtotal:</strong>
-                        <span class="woocommerce-Price-amount amount">
-                            <span class="woocommerce-Price-currencySymbol">$</span>4398.00</span>
-                    </p>
-                    <p class="woocommerce-mini-cart__buttons buttons">
-                        <a href="cart.html" class="th-btn wc-forward">View cart</a>
-                        <a href="checkout.html" class="th-btn checkout wc-forward">Checkout</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <div class="popup-search-box d-none d-lg-block">
         <button class="searchClose"><i class="fal fa-times"></i></button>
         <form action="#">
@@ -204,66 +42,7 @@ Product Lightbox
     </div><!--==============================
     Mobile Menu
   ============================== -->
-    <div class="th-menu-wrapper">
-        <div class="th-menu-area text-center">
-            <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo">
-                <a href="home-restaurant-shop.html"><img src="assets/img/logo.svg" alt="Restar"></a>
-            </div>
-            <div class="th-mobile-menu">
-                <ul>
-                    <li class="menu-item-has-children">
-                        <a href="home-restaurant-shop.html">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="home-restaurant-shop.html">Restaurant Shop</a></li>
-                            <li><a href="home-fast-food.html">Home Fast Food</a></li>
-                            <li><a href="home-restaurant.html">Home Restaurant</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Pages</a>
-                        <ul class="sub-menu">
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="service.html">Service</a></li>
-                            <li><a href="service-details.html">Service Details</a></li>
-                            <li><a href="team.html">Chef</a></li>
-                            <li><a href="team-details.html">Chef Details</a></li>
-                            <li><a href="reservation.html">Reservation</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="error.html">Error Page</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Menus</a>
-                        <ul class="sub-menu">
-                            <li><a href="menu-one.html">Food Menu 1</a></li>
-                            <li><a href="menu-two.html">Food Menu 2</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Shop</a>
-                        <ul class="sub-menu">
-                            <li><a href="shop.html">Shop</a></li>
-                            <li><a href="shop-details.html">Shop Details</a></li>
-                            <li><a href="cart.html">Cart Page</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>
-                            <li><a href="wishlist.html">Wishlist</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Blog</a>
-                        <ul class="sub-menu">
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="blog-details.html">Blog Details</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div><!--==============================
+   <?php include "include/mobile.php" ?><!--==============================
 	Header Area
 ==============================-->
     <header class="th-header header-layout2 ">
@@ -274,59 +53,59 @@ Product Lightbox
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="home-restaurant-shop.html"><img src="assets/img/logo.svg" alt="Restar"></a>
+                                <a href="index.php"><img src="assets/img/logo.svg" alt="Restar"></a>
                             </div>
                         </div>
                         <div class="col-auto">
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
                                     <li class="menu-item-has-children">
-                                        <a href="home-restaurant-shop.html">Home</a>
+                                        <a href="index.php">Home</a>
                                         <ul class="sub-menu">
-                                            <li><a href="home-restaurant-shop.html">Restaurant Shop</a></li>
-                                            <li><a href="home-fast-food.html">Home Fast Food</a></li>
-                                            <li><a href="home-restaurant.html">Home Restaurant</a></li>
+                                            <li><a href="index.php">Restaurant Shop</a></li>
+                                            <li><a href="home-fast-food.php">Home Fast Food</a></li>
+                                            <li><a href="home-restaurant.php">Home Restaurant</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">Pages</a>
                                         <ul class="sub-menu">
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="service.html">Service</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
-                                            <li><a href="team.html">Chef</a></li>
-                                            <li><a href="team-details.html">Chef Details</a></li>
-                                            <li><a href="reservation.html">Reservation</a></li>
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <li><a href="error.html">Error Page</a></li>
+                                            <li><a href="about.php">About Us</a></li>
+                                            <li><a href="service.php">Service</a></li>
+                                            <li><a href="service-details.php">Service Details</a></li>
+                                            <li><a href="team.php">Chef</a></li>
+                                            <li><a href="team-details.php">Chef Details</a></li>
+                                            <li><a href="reservation.php">Reservation</a></li>
+                                            <li><a href="gallery.php">Gallery</a></li>
+                                            <li><a href="error.php">Error Page</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">Menus</a>
                                         <ul class="sub-menu">
-                                            <li><a href="menu-one.html">Food Menu 1</a></li>
-                                            <li><a href="menu-two.html">Food Menu 2</a></li>
+                                            <li><a href="menu-one.php">Food Menu 1</a></li>
+                                            <li><a href="menu-two.php">Food Menu 2</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">Shop</a>
                                         <ul class="sub-menu">
-                                            <li><a href="shop.html">Shop</a></li>
-                                            <li><a href="shop-details.html">Shop Details</a></li>
-                                            <li><a href="cart.html">Cart Page</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
-                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                            <li><a href="shop.php">Shop</a></li>
+                                            <li><a href="shop-details.php">Shop Details</a></li>
+                                            <li><a href="cart.php">Cart Page</a></li>
+                                            <li><a href="checkout.php">Checkout</a></li>
+                                            <li><a href="wishlist.php">Wishlist</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">Blog</a>
                                         <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="blog.php">Blog</a></li>
+                                            <li><a href="blog-details.php">Blog Details</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="contact.html">Contact</a>
+                                        <a href="contact.php">Contact</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -342,7 +121,7 @@ Product Lightbox
                                     <h3 class="box-title"><a href="tel:+9878218015"><span class="icon"></span> +987-82-18015</a></h3>
                                     <p class="box-text">Contact us for reservation</p>
                                 </div>
-                                <a href="reservation.html" class="th-btn d-none d-xl-block">Book A Table</a>
+                                <a href="reservation.php" class="th-btn d-none d-xl-block">Book A Table</a>
                                 <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
                             </div>
                         </div>
@@ -370,8 +149,8 @@ Hero Area
                                             <span class="title2" data-ani="slideinup" data-ani-delay="0.5s">Palate</span>
                                         </h1>
                                         <div class="btn-group" data-ani="slideinup" data-ani-delay="0.7s">
-                                            <a href="reservation.html" class="th-btn style3">Reservation</a>
-                                            <a href="shop.html" class="th-btn style-border border-four">View Food Menu</a>
+                                            <a href="reservation.php" class="th-btn style3">Reservation</a>
+                                            <a href="shop.php" class="th-btn style-border border-four">View Food Menu</a>
                                         </div>
                                     </div>
                                 </div>
@@ -509,9 +288,9 @@ Category Area
                                             <div class="box-price">$22</div>
                                         </div>
                                         <div class="box-content">
-                                            <h3 class="box-title"><a href="shop.html">Breakfast Foods</a></h3>
+                                            <h3 class="box-title"><a href="shop.php">Breakfast Foods</a></h3>
                                             <p class="box-text">From crispy and golden fries to mouthwatering burgers and wraps, our menu offers</p>
-                                            <a href="shop.html" class="th-btn btn-sm style-border">View Menu</a>
+                                            <a href="shop.php" class="th-btn btn-sm style-border">View Menu</a>
                                         </div>
                                     </div>
                                 </div>
@@ -523,9 +302,9 @@ Category Area
                                             <div class="box-price">$32</div>
                                         </div>
                                         <div class="box-content">
-                                            <h3 class="box-title"><a href="shop.html">Lunch Foods</a></h3>
+                                            <h3 class="box-title"><a href="shop.php">Lunch Foods</a></h3>
                                             <p class="box-text">From crispy and golden fries to mouthwatering burgers and wraps, our menu offers</p>
-                                            <a href="shop.html" class="th-btn btn-sm style-border">View Menu</a>
+                                            <a href="shop.php" class="th-btn btn-sm style-border">View Menu</a>
                                         </div>
                                     </div>
                                 </div>
@@ -537,9 +316,9 @@ Category Area
                                             <div class="box-price">$42</div>
                                         </div>
                                         <div class="box-content">
-                                            <h3 class="box-title"><a href="shop.html">Dinner Foods</a></h3>
+                                            <h3 class="box-title"><a href="shop.php">Dinner Foods</a></h3>
                                             <p class="box-text">From crispy and golden fries to mouthwatering burgers and wraps, our menu offers</p>
-                                            <a href="shop.html" class="th-btn btn-sm style-border">View Menu</a>
+                                            <a href="shop.php" class="th-btn btn-sm style-border">View Menu</a>
                                         </div>
                                     </div>
                                 </div>
@@ -551,9 +330,9 @@ Category Area
                                             <div class="box-price">$22</div>
                                         </div>
                                         <div class="box-content">
-                                            <h3 class="box-title"><a href="shop.html">Desert Foods</a></h3>
+                                            <h3 class="box-title"><a href="shop.php">Desert Foods</a></h3>
                                             <p class="box-text">From crispy and golden fries to mouthwatering burgers and wraps, our menu offers</p>
-                                            <a href="shop.html" class="th-btn btn-sm style-border">View Menu</a>
+                                            <a href="shop.php" class="th-btn btn-sm style-border">View Menu</a>
                                         </div>
                                     </div>
                                 </div>
@@ -565,9 +344,9 @@ Category Area
                                             <div class="box-price">$22</div>
                                         </div>
                                         <div class="box-content">
-                                            <h3 class="box-title"><a href="shop.html">Breakfast Foods</a></h3>
+                                            <h3 class="box-title"><a href="shop.php">Breakfast Foods</a></h3>
                                             <p class="box-text">From crispy and golden fries to mouthwatering burgers and wraps, our menu offers</p>
-                                            <a href="shop.html" class="th-btn btn-sm style-border">View Menu</a>
+                                            <a href="shop.php" class="th-btn btn-sm style-border">View Menu</a>
                                         </div>
                                     </div>
                                 </div>
@@ -579,9 +358,9 @@ Category Area
                                             <div class="box-price">$32</div>
                                         </div>
                                         <div class="box-content">
-                                            <h3 class="box-title"><a href="shop.html">Lunch Foods</a></h3>
+                                            <h3 class="box-title"><a href="shop.php">Lunch Foods</a></h3>
                                             <p class="box-text">From crispy and golden fries to mouthwatering burgers and wraps, our menu offers</p>
-                                            <a href="shop.html" class="th-btn btn-sm style-border">View Menu</a>
+                                            <a href="shop.php" class="th-btn btn-sm style-border">View Menu</a>
                                         </div>
                                     </div>
                                 </div>
@@ -593,9 +372,9 @@ Category Area
                                             <div class="box-price">$42</div>
                                         </div>
                                         <div class="box-content">
-                                            <h3 class="box-title"><a href="shop.html">Dinner Foods</a></h3>
+                                            <h3 class="box-title"><a href="shop.php">Dinner Foods</a></h3>
                                             <p class="box-text">From crispy and golden fries to mouthwatering burgers and wraps, our menu offers</p>
-                                            <a href="shop.html" class="th-btn btn-sm style-border">View Menu</a>
+                                            <a href="shop.php" class="th-btn btn-sm style-border">View Menu</a>
                                         </div>
                                     </div>
                                 </div>
@@ -607,9 +386,9 @@ Category Area
                                             <div class="box-price">$22</div>
                                         </div>
                                         <div class="box-content">
-                                            <h3 class="box-title"><a href="shop.html">Desert Foods</a></h3>
+                                            <h3 class="box-title"><a href="shop.php">Desert Foods</a></h3>
                                             <p class="box-text">From crispy and golden fries to mouthwatering burgers and wraps, our menu offers</p>
-                                            <a href="shop.html" class="th-btn btn-sm style-border">View Menu</a>
+                                            <a href="shop.php" class="th-btn btn-sm style-border">View Menu</a>
                                         </div>
                                     </div>
                                 </div>
@@ -739,11 +518,11 @@ Menu Area
                                     <div class="box-img">
                                         <img src="assets/img/product/menu_thumb_1.png" alt="Food">
                                         <div class="actions">
-                                            <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                            <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="shop-details.html">Grilled Salmon with Dil Sauce</a></h3>
+                                        <h3 class="box-title"><a href="shop-details.php">Grilled Salmon with Dil Sauce</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Candied Jerusalem artichokes, truffle</p>
                                             <div class="box-line"></div>
@@ -755,11 +534,11 @@ Menu Area
                                     <div class="box-img">
                                         <img src="assets/img/product/menu_thumb_2.png" alt="Food">
                                         <div class="actions">
-                                            <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                            <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="shop-details.html">Roast Beef with Vegetable</a></h3>
+                                        <h3 class="box-title"><a href="shop-details.php">Roast Beef with Vegetable</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Candied Jerusalem artichokes, truffle</p>
                                             <div class="box-line"></div>
@@ -771,11 +550,11 @@ Menu Area
                                     <div class="box-img">
                                         <img src="assets/img/product/menu_thumb_3.png" alt="Food">
                                         <div class="actions">
-                                            <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                            <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="shop-details.html">Marrakesh Vegetarian Curry</a></h3>
+                                        <h3 class="box-title"><a href="shop-details.php">Marrakesh Vegetarian Curry</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Candied Jerusalem artichokes, truffle</p>
                                             <div class="box-line"></div>
@@ -787,11 +566,11 @@ Menu Area
                                     <div class="box-img">
                                         <img src="assets/img/product/menu_thumb_4.png" alt="Food">
                                         <div class="actions">
-                                            <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                            <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="shop-details.html">Spicy Vegan Potato Curry</a></h3>
+                                        <h3 class="box-title"><a href="shop-details.php">Spicy Vegan Potato Curry</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Candied Jerusalem artichokes, truffle</p>
                                             <div class="box-line"></div>
@@ -803,11 +582,11 @@ Menu Area
                                     <div class="box-img">
                                         <img src="assets/img/product/menu_thumb_5.png" alt="Food">
                                         <div class="actions">
-                                            <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                            <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="shop-details.html">Apple Pie with Cream</a></h3>
+                                        <h3 class="box-title"><a href="shop-details.php">Apple Pie with Cream</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Candied Jerusalem artichokes, truffle</p>
                                             <div class="box-line"></div>
@@ -819,11 +598,11 @@ Menu Area
                                     <div class="box-img">
                                         <img src="assets/img/product/menu_thumb_6.png" alt="Food">
                                         <div class="actions">
-                                            <a href="cart.html" class="icon-btn"><i class="far fa-cart-plus"></i></a>
+                                            <a href="cart.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="shop-details.html">French Onion Soup</a></h3>
+                                        <h3 class="box-title"><a href="shop-details.php">French Onion Soup</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Candied Jerusalem artichokes, truffle</p>
                                             <div class="box-line"></div>
@@ -841,7 +620,7 @@ Menu Area
                     </div>
                     <div class="mt-5 pt-xl-2 text-center">
                         <div class="text-ani">
-                            <a href="shop.html" class="th-btn style-border smoke-bg">View All Menu</a>
+                            <a href="shop.php" class="th-btn style-border smoke-bg">View All Menu</a>
                         </div>
                     </div>
                 </div>
@@ -1013,7 +792,7 @@ Team Area
                                         <div class="box-img">
                                             <img src="assets/img/team/team_1_1.jpg" alt="Team">
                                         </div>
-                                        <h3 class="box-title"><a href="team-details.html">Avroko</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Avroko</a></h3>
                                         <p class="box-desig">Master Chef</p>
                                     </div>
                                 </div>
@@ -1024,7 +803,7 @@ Team Area
                                         <div class="box-img">
                                             <img src="assets/img/team/team_1_2.jpg" alt="Team">
                                         </div>
-                                        <h3 class="box-title"><a href="team-details.html">Evan Mattew</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Evan Mattew</a></h3>
                                         <p class="box-desig">Master Chef</p>
                                     </div>
                                 </div>
@@ -1035,7 +814,7 @@ Team Area
                                         <div class="box-img">
                                             <img src="assets/img/team/team_1_3.jpg" alt="Team">
                                         </div>
-                                        <h3 class="box-title"><a href="team-details.html">Diane Clarkson</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Diane Clarkson</a></h3>
                                         <p class="box-desig">Master Chef</p>
                                     </div>
                                 </div>
@@ -1046,7 +825,7 @@ Team Area
                                         <div class="box-img">
                                             <img src="assets/img/team/team_1_4.jpg" alt="Team">
                                         </div>
-                                        <h3 class="box-title"><a href="team-details.html">Dan Rafalin</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Dan Rafalin</a></h3>
                                         <p class="box-desig">Assistant Chef</p>
                                     </div>
                                 </div>
@@ -1057,7 +836,7 @@ Team Area
                                         <div class="box-img">
                                             <img src="assets/img/team/team_1_5.jpg" alt="Team">
                                         </div>
-                                        <h3 class="box-title"><a href="team-details.html">Harry Callum</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Harry Callum</a></h3>
                                         <p class="box-desig">Master Chef</p>
                                     </div>
                                 </div>
@@ -1068,7 +847,7 @@ Team Area
                                         <div class="box-img">
                                             <img src="assets/img/team/team_1_6.jpg" alt="Team">
                                         </div>
-                                        <h3 class="box-title"><a href="team-details.html">Jack Connor</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Jack Connor</a></h3>
                                         <p class="box-desig">Master Chef</p>
                                     </div>
                                 </div>
@@ -1079,7 +858,7 @@ Team Area
                                         <div class="box-img">
                                             <img src="assets/img/team/team_1_7.jpg" alt="Team">
                                         </div>
-                                        <h3 class="box-title"><a href="team-details.html">Sophie Tracy</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Sophie Tracy</a></h3>
                                         <p class="box-desig">Master Chef</p>
                                     </div>
                                 </div>
@@ -1090,7 +869,7 @@ Team Area
                                         <div class="box-img">
                                             <img src="assets/img/team/team_1_8.jpg" alt="Team">
                                         </div>
-                                        <h3 class="box-title"><a href="team-details.html">Ethan David</a></h3>
+                                        <h3 class="box-title"><a href="team-details.php">Ethan David</a></h3>
                                         <p class="box-desig">Assistant Chef</p>
                                     </div>
                                 </div>
@@ -1190,7 +969,7 @@ Blog Area
                         <div class="col-md-auto">
                             <div class="sec-btn mt-n3 mt-md-0">
                                 <div class="text-ani">
-                                    <a href="blog.html" class="th-btn style-border">View All Post</a>
+                                    <a href="blog.php" class="th-btn style-border">View All Post</a>
                                 </div>
                             </div>
                         </div>
@@ -1205,11 +984,11 @@ Blog Area
                                         </div>
                                         <div class="blog-content">
                                             <div class="blog-meta">
-                                                <a href="blog.html">April 15, 2024</a>
-                                                <a href="blog.html">RECHIPES</a>
+                                                <a href="blog.php">April 15, 2024</a>
+                                                <a href="blog.php">RECHIPES</a>
                                             </div>
-                                            <h3 class="box-title"><a href="blog-details.html">Classy Sauces To Make Meat Melt In Your Mouth</a></h3>
-                                            <a href="blog-details.html" class="th-btn btn-sm style-border">Read More</a>
+                                            <h3 class="box-title"><a href="blog-details.php">Classy Sauces To Make Meat Melt In Your Mouth</a></h3>
+                                            <a href="blog-details.php" class="th-btn btn-sm style-border">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1221,11 +1000,11 @@ Blog Area
                                         </div>
                                         <div class="blog-content">
                                             <div class="blog-meta">
-                                                <a href="blog.html">April 16, 2024</a>
-                                                <a href="blog.html">RECHIPES</a>
+                                                <a href="blog.php">April 16, 2024</a>
+                                                <a href="blog.php">RECHIPES</a>
                                             </div>
-                                            <h3 class="box-title"><a href="blog-details.html">Stories Behind Our Most Loved Recipes Foodies</a></h3>
-                                            <a href="blog-details.html" class="th-btn btn-sm style-border">Read More</a>
+                                            <h3 class="box-title"><a href="blog-details.php">Stories Behind Our Most Loved Recipes Foodies</a></h3>
+                                            <a href="blog-details.php" class="th-btn btn-sm style-border">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1237,11 +1016,11 @@ Blog Area
                                         </div>
                                         <div class="blog-content">
                                             <div class="blog-meta">
-                                                <a href="blog.html">April 17, 2024</a>
-                                                <a href="blog.html">RECHIPES</a>
+                                                <a href="blog.php">April 17, 2024</a>
+                                                <a href="blog.php">RECHIPES</a>
                                             </div>
-                                            <h3 class="box-title"><a href="blog-details.html">The Fresh Ingredients That Define Our Dishes</a></h3>
-                                            <a href="blog-details.html" class="th-btn btn-sm style-border">Read More</a>
+                                            <h3 class="box-title"><a href="blog-details.php">The Fresh Ingredients That Define Our Dishes</a></h3>
+                                            <a href="blog-details.php" class="th-btn btn-sm style-border">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1253,11 +1032,11 @@ Blog Area
                                         </div>
                                         <div class="blog-content">
                                             <div class="blog-meta">
-                                                <a href="blog.html">April 18, 2024</a>
-                                                <a href="blog.html">RECHIPES</a>
+                                                <a href="blog.php">April 18, 2024</a>
+                                                <a href="blog.php">RECHIPES</a>
                                             </div>
-                                            <h3 class="box-title"><a href="blog-details.html">Only Pure Ingredients Can Increase Food Taste</a></h3>
-                                            <a href="blog-details.html" class="th-btn btn-sm style-border">Read More</a>
+                                            <h3 class="box-title"><a href="blog-details.php">Only Pure Ingredients Can Increase Food Taste</a></h3>
+                                            <a href="blog-details.php" class="th-btn btn-sm style-border">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1269,11 +1048,11 @@ Blog Area
                                         </div>
                                         <div class="blog-content">
                                             <div class="blog-meta">
-                                                <a href="blog.html">April 19, 2024</a>
-                                                <a href="blog.html">RECHIPES</a>
+                                                <a href="blog.php">April 19, 2024</a>
+                                                <a href="blog.php">RECHIPES</a>
                                             </div>
-                                            <h3 class="box-title"><a href="blog-details.html">What Types of Massala Is The Best in Cooking</a></h3>
-                                            <a href="blog-details.html" class="th-btn btn-sm style-border">Read More</a>
+                                            <h3 class="box-title"><a href="blog-details.php">What Types of Massala Is The Best in Cooking</a></h3>
+                                            <a href="blog-details.php" class="th-btn btn-sm style-border">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1285,11 +1064,11 @@ Blog Area
                                         </div>
                                         <div class="blog-content">
                                             <div class="blog-meta">
-                                                <a href="blog.html">April 21, 2024</a>
-                                                <a href="blog.html">RECHIPES</a>
+                                                <a href="blog.php">April 21, 2024</a>
+                                                <a href="blog.php">RECHIPES</a>
                                             </div>
-                                            <h3 class="box-title"><a href="blog-details.html">Good Cook Always Use These Types of Tricks</a></h3>
-                                            <a href="blog-details.html" class="th-btn btn-sm style-border">Read More</a>
+                                            <h3 class="box-title"><a href="blog-details.php">Good Cook Always Use These Types of Tricks</a></h3>
+                                            <a href="blog-details.php" class="th-btn btn-sm style-border">Read More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1402,7 +1181,7 @@ Brand Area
                                 <div class="widget footer-widget">
                                     <div class="th-widget-about">
                                         <div class="about-logo">
-                                            <a href="home-restaurant-shop.html"><img src="assets/img/logo-footer.svg" alt="Restar"></a>
+                                            <a href="index.php"><img src="assets/img/logo-footer.svg" alt="Restar"></a>
                                         </div>
                                         <p class="about-text">We believe that great food shouldn't break the bank. That's why we offer affordable options without compromising on taste.</p>
                                         <div class="th-social">
@@ -1419,11 +1198,11 @@ Brand Area
                                     <h3 class="widget_title">Quick Links</h3>
                                     <div class="menu-all-pages-container">
                                         <ul class="menu">
-                                            <li><a href="team.html">Team Member</a></li>
-                                            <li><a href="about.html">Testimonials</a></li>
-                                            <li><a href="about.html">Company History</a></li>
-                                            <li><a href="contact.html">Need a Career?</a></li>
-                                            <li><a href="faq.html">FAQs</a></li>
+                                            <li><a href="team.php">Team Member</a></li>
+                                            <li><a href="about.php">Testimonials</a></li>
+                                            <li><a href="about.php">Company History</a></li>
+                                            <li><a href="contact.php">Need a Career?</a></li>
+                                            <li><a href="faq.php">FAQs</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1443,11 +1222,11 @@ Brand Area
                                     <h3 class="widget_title">Food Menu</h3>
                                     <div class="menu-all-pages-container">
                                         <ul class="menu">
-                                            <li><a href="shop.html">White Castle</a></li>
-                                            <li><a href="shop.html">Beef Sandwich</a></li>
-                                            <li><a href="shop.html">Cherry Limeade</a></li>
-                                            <li><a href="shop.html">Sandwich</a></li>
-                                            <li><a href="shop.html">Pumpkin Spice</a></li>
+                                            <li><a href="shop.php">White Castle</a></li>
+                                            <li><a href="shop.php">Beef Sandwich</a></li>
+                                            <li><a href="shop.php">Cherry Limeade</a></li>
+                                            <li><a href="shop.php">Sandwich</a></li>
+                                            <li><a href="shop.php">Pumpkin Spice</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1497,13 +1276,13 @@ Brand Area
                     <div class="container">
                         <div class="row gx-1 gy-2 align-items-center">
                             <div class="col-md-7">
-                                <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a href="home-restaurant-shop.html">Restar</a>. All Rights Reserved.</p>
+                                <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a href="index.php">Restar</a>. All Rights Reserved.</p>
                             </div>
                             <div class="col-md-5 text-center text-md-end">
                                 <div class="footer-links">
                                     <ul>
-                                        <li><a href="about.html">Terms & Condition</a></li>
-                                        <li><a href="about.html">Privacy & Policy</a></li>
+                                        <li><a href="about.php">Terms & Condition</a></li>
+                                        <li><a href="about.php">Privacy & Policy</a></li>
                                     </ul>
                                 </div>
                             </div>

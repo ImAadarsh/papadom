@@ -5,55 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Restar - Fast Food & Restaurant HTML Template - Our Services</title>
-    <meta name="author" content="Restar">
-    <meta name="description" content="Restar - Fast Food & Restaurant HTML Template">
-    <meta name="keywords" content="Restar - Fast Food & Restaurant HTML Template">
-    <meta name="robots" content="INDEX,FOLLOW">
-
-    <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Favicons - Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-
-    <!--==============================
-	  Google Fonts
-	============================== -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
-
-    <!--==============================
-	    All CSS File
-	============================== -->
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <!-- Magnific Popup -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
-    <!-- Date Time -->
-    <link rel="stylesheet" href="assets/css/jquery.datetimepicker.min.css">
-    <!-- Swiper Js -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!-- Theme Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+<?php include "include/main.php" ?>
 
 </head>
 
@@ -74,82 +26,10 @@
     <!--==============================
      Preloader
   ==============================-->
-    <div class="preloader ">
-        <button class="th-btn preloaderCls">Cancel Preloader </button>
-        <div class="preloader-inner">
-            <div class="loader">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div><!--==============================
+    <!--==============================
     Sidemenu
 ============================== -->
-    <div class="sidemenu-wrapper sidemenu-cart ">
-        <div class="sidemenu-content">
-            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
-            <div class="widget woocommerce widget_shopping_cart">
-                <h3 class="widget_title">Shopping cart</h3>
-                <div class="widget_shopping_cart_content">
-                    <ul class="woocommerce-mini-cart cart_list product_list_widget ">
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/menu_thumb_1.png" alt="Cart Image">Egg and Cocumber</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>940.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/menu_thumb_2.png" alt="Cart Image">Tofu Red Chili</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>899.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/menu_thumb_3.png" alt="Cart Image">Raw Salmon Salad</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>756.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/menu_thumb_4.png" alt="Cart Image">Salmon Beef Stack</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>723.00</span>
-                            </span>
-                        </li>
-                        <li class="woocommerce-mini-cart-item mini_cart_item">
-                            <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
-                            <a href="#"><img src="assets/img/product/menu_thumb_5.png" alt="Cart Image">Paper Letter Printing</a>
-                            <span class="quantity">1 ×
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>1080.00</span>
-                            </span>
-                        </li>
-                    </ul>
-                    <p class="woocommerce-mini-cart__total total">
-                        <strong>Subtotal:</strong>
-                        <span class="woocommerce-Price-amount amount">
-                            <span class="woocommerce-Price-currencySymbol">$</span>4398.00</span>
-                    </p>
-                    <p class="woocommerce-mini-cart__buttons buttons">
-                        <a href="cart.html" class="th-btn wc-forward">View cart</a>
-                        <a href="checkout.html" class="th-btn checkout wc-forward">Checkout</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <div class="popup-search-box d-none d-lg-block">
         <button class="searchClose"><i class="fal fa-times"></i></button>
         <form action="#">
@@ -159,172 +39,10 @@
     </div><!--==============================
     Mobile Menu
   ============================== -->
-    <div class="th-menu-wrapper">
-        <div class="th-menu-area text-center">
-            <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo">
-                <a href="home-restaurant-shop.html"><img src="assets/img/logo.svg" alt="Restar"></a>
-            </div>
-            <div class="th-mobile-menu">
-                <ul>
-                    <li class="menu-item-has-children">
-                        <a href="home-restaurant-shop.html">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="home-restaurant-shop.html">Restaurant Shop</a></li>
-                            <li><a href="home-fast-food.html">Home Fast Food</a></li>
-                            <li><a href="home-restaurant.html">Home Restaurant</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Pages</a>
-                        <ul class="sub-menu">
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="service.html">Service</a></li>
-                            <li><a href="service-details.html">Service Details</a></li>
-                            <li><a href="team.html">Chef</a></li>
-                            <li><a href="team-details.html">Chef Details</a></li>
-                            <li><a href="reservation.html">Reservation</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="error.html">Error Page</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Menus</a>
-                        <ul class="sub-menu">
-                            <li><a href="menu-one.html">Food Menu 1</a></li>
-                            <li><a href="menu-two.html">Food Menu 2</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Shop</a>
-                        <ul class="sub-menu">
-                            <li><a href="shop.html">Shop</a></li>
-                            <li><a href="shop-details.html">Shop Details</a></li>
-                            <li><a href="cart.html">Cart Page</a></li>
-                            <li><a href="checkout.html">Checkout</a></li>
-                            <li><a href="wishlist.html">Wishlist</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Blog</a>
-                        <ul class="sub-menu">
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="blog-details.html">Blog Details</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div><!--==============================
+   <?php include "include/mobile.php" ?><!--==============================
 	Header Area
 ==============================-->
-    <header class="th-header header-layout1 ">
-        <div class="header-top">
-            <div class="container">
-                <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
-                    <div class="col-auto d-none d-lg-block">
-                        <div class="header-links">
-                            <ul>
-                                <li class="d-none d-xxl-inline-block"><i class="fas fa-location-dot"></i> <a href="https://www.google.com/maps/">9402 Main St, Plymouth, CA 95669, United States</a></li>
-                                <li><i class="fas fa-phone"></i> <a href="tel:+98782818015">+987-828-18015</a></li>
-                                <li><i class="fas fa-envelope"></i> <a href="mailto:info@restar.com">info@restar.com</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="header-links">
-                            <div class="shape1"></div>
-                            <ul>
-                                <li><i class="fas fa-clock"></i> <b>Mondat to Friday:</b> 9:00am - 22:00pm</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sticky-wrapper">
-            <!-- Main Menu Area -->
-            <div class="menu-area">
-                <div class="container">
-                    <div class="row align-items-center justify-content-between">
-                        <div class="col-auto">
-                            <div class="header-logo">
-                                <a href="home-restaurant-shop.html"><img src="assets/img/logo.svg" alt="Restar"></a>
-                            </div>
-                        </div>
-                        <div class="col-auto">
-                            <nav class="main-menu d-none d-lg-inline-block">
-                                <ul>
-                                    <li class="menu-item-has-children">
-                                        <a href="home-restaurant-shop.html">Home</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="home-restaurant-shop.html">Restaurant Shop</a></li>
-                                            <li><a href="home-fast-food.html">Home Fast Food</a></li>
-                                            <li><a href="home-restaurant.html">Home Restaurant</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Pages</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="service.html">Service</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
-                                            <li><a href="team.html">Chef</a></li>
-                                            <li><a href="team-details.html">Chef Details</a></li>
-                                            <li><a href="reservation.html">Reservation</a></li>
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <li><a href="error.html">Error Page</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Menus</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="menu-one.html">Food Menu 1</a></li>
-                                            <li><a href="menu-two.html">Food Menu 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Shop</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="shop.html">Shop</a></li>
-                                            <li><a href="shop-details.html">Shop Details</a></li>
-                                            <li><a href="cart.html">Cart Page</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
-                                            <li><a href="wishlist.html">Wishlist</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">Contact</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="col-auto">
-                            <div class="header-button">
-                                <button type="button" class="simple-icon searchBoxToggler d-none d-xl-block"><i class="fal fa-search"></i></button>
-                                <button type="button" class="simple-icon sideMenuToggler">
-                                    <span class="badge">5</span>
-                                    <i class="fal fa-cart-shopping"></i>
-                                </button>
-                                <a href="contact.html" class="th-btn style4 d-none d-xl-block">Book A Table</a>
-                                <button type="button" class="th-menu-toggle d-block d-lg-none"><i class="far fa-bars"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+<?php include "include/header.php" ?>
 
     <div id="smooth-wrapper">
         <div id="smooth-content"><!--==============================
@@ -335,7 +53,7 @@
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">Our Services</h1>
                         <ul class="breadcumb-menu">
-                            <li><a href="home-restaurant-shop.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li>Our Services</li>
                         </ul>
                     </div>
@@ -364,7 +82,7 @@ Feature Area
                                     <img src="assets/img/icon/feature_box_1.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.html">Discount Voucher</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Discount Voucher</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">Indulge in a gourmet journey with a menu Our chefs use the finest ingredients.</p>
                                     </div>
@@ -382,7 +100,7 @@ Feature Area
                                     <img src="assets/img/icon/feature_box_2.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.html">Original Recipes</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Original Recipes</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">Indulge in a gourmet journey with a menu Our chefs use the finest ingredients.</p>
                                     </div>
@@ -400,7 +118,7 @@ Feature Area
                                     <img src="assets/img/icon/feature_box_3.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.html">100% Fresh Foods</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">100% Fresh Foods</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">Indulge in a gourmet journey with a menu Our chefs use the finest ingredients.</p>
                                     </div>
@@ -418,7 +136,7 @@ Feature Area
                                     <img src="assets/img/icon/feature_box_4.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.html">Serve On Table</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Serve On Table</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">Indulge in a gourmet journey with a menu Our chefs use the finest ingredients.</p>
                                     </div>
@@ -436,7 +154,7 @@ Feature Area
                                     <img src="assets/img/icon/feature_box_5.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.html">Dine-In Service</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Dine-In Service</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">Indulge in a gourmet journey with a menu Our chefs use the finest ingredients.</p>
                                     </div>
@@ -454,7 +172,7 @@ Feature Area
                                     <img src="assets/img/icon/feature_box_6.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.html">Takeout & Delivery</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Takeout & Delivery</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">Indulge in a gourmet journey with a menu Our chefs use the finest ingredients.</p>
                                     </div>
@@ -472,7 +190,7 @@ Feature Area
                                     <img src="assets/img/icon/feature_box_7.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.html">Catering</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Catering</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">Indulge in a gourmet journey with a menu Our chefs use the finest ingredients.</p>
                                     </div>
@@ -490,7 +208,7 @@ Feature Area
                                     <img src="assets/img/icon/feature_box_8.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.html">Private Dining</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Private Dining</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">Indulge in a gourmet journey with a menu Our chefs use the finest ingredients.</p>
                                     </div>
@@ -508,7 +226,7 @@ Feature Area
                                     <img src="assets/img/icon/feature_box_9.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.html">Online Ordering</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Online Ordering</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">Indulge in a gourmet journey with a menu Our chefs use the finest ingredients.</p>
                                     </div>
@@ -526,7 +244,7 @@ Feature Area
                                     <img src="assets/img/icon/feature_box_10.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.html">Special Events</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Special Events</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">Indulge in a gourmet journey with a menu Our chefs use the finest ingredients.</p>
                                     </div>
@@ -544,7 +262,7 @@ Feature Area
                                     <img src="assets/img/icon/feature_box_11.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.html">Food Testing Event</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Food Testing Event</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">Indulge in a gourmet journey with a menu Our chefs use the finest ingredients.</p>
                                     </div>
@@ -562,7 +280,7 @@ Feature Area
                                     <img src="assets/img/icon/feature_box_12.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.html">Food Donations</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service-details.php">Food Donations</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">Indulge in a gourmet journey with a menu Our chefs use the finest ingredients.</p>
                                     </div>
@@ -587,8 +305,8 @@ Cta Area
                             </div>
                             <div class="text-ani">
                                 <div class="btn-group justify-content-center">
-                                    <a href="shop.html" class="th-btn style3">Get A Offer</a>
-                                    <a href="contact.html" class="th-btn style-border border-three">Book A Table</a>
+                                    <a href="shop.php" class="th-btn style3">Get A Offer</a>
+                                    <a href="contact.php" class="th-btn style-border border-three">Book A Table</a>
                                 </div>
                             </div>
                         </div>
@@ -638,7 +356,7 @@ Delivery Area
                                 </div>
                             </div>
                             <div class="text-ani">
-                                <a href="shop.html" class="th-btn style-border">Order Now</a>
+                                <a href="shop.php" class="th-btn style-border">Order Now</a>
                             </div>
                         </div>
                     </div>
@@ -736,7 +454,7 @@ Brand Area
                                 <div class="widget footer-widget">
                                     <div class="th-widget-about">
                                         <div class="about-logo">
-                                            <a href="home-restaurant-shop.html"><img src="assets/img/logo-footer.svg" alt="Restar"></a>
+                                            <a href="index.php"><img src="assets/img/logo-footer.svg" alt="Restar"></a>
                                         </div>
                                         <p class="about-text">We believe that great food shouldn't break the bank. That's why we offer affordable options without compromising on taste.</p>
                                         <div class="th-social">
@@ -753,11 +471,11 @@ Brand Area
                                     <h3 class="widget_title">Quick Links</h3>
                                     <div class="menu-all-pages-container">
                                         <ul class="menu">
-                                            <li><a href="team.html">Team Member</a></li>
-                                            <li><a href="about.html">Testimonials</a></li>
-                                            <li><a href="about.html">Company History</a></li>
-                                            <li><a href="contact.html">Need a Career?</a></li>
-                                            <li><a href="faq.html">FAQs</a></li>
+                                            <li><a href="team.php">Team Member</a></li>
+                                            <li><a href="about.php">Testimonials</a></li>
+                                            <li><a href="about.php">Company History</a></li>
+                                            <li><a href="contact.php">Need a Career?</a></li>
+                                            <li><a href="faq.php">FAQs</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -777,11 +495,11 @@ Brand Area
                                     <h3 class="widget_title">Food Menu</h3>
                                     <div class="menu-all-pages-container">
                                         <ul class="menu">
-                                            <li><a href="shop.html">White Castle</a></li>
-                                            <li><a href="shop.html">Beef Sandwich</a></li>
-                                            <li><a href="shop.html">Cherry Limeade</a></li>
-                                            <li><a href="shop.html">Sandwich</a></li>
-                                            <li><a href="shop.html">Pumpkin Spice</a></li>
+                                            <li><a href="shop.php">White Castle</a></li>
+                                            <li><a href="shop.php">Beef Sandwich</a></li>
+                                            <li><a href="shop.php">Cherry Limeade</a></li>
+                                            <li><a href="shop.php">Sandwich</a></li>
+                                            <li><a href="shop.php">Pumpkin Spice</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -831,13 +549,13 @@ Brand Area
                     <div class="container">
                         <div class="row gx-1 gy-2 align-items-center">
                             <div class="col-md-7">
-                                <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a href="home-restaurant-shop.html">Restar</a>. All Rights Reserved.</p>
+                                <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a href="index.php">Restar</a>. All Rights Reserved.</p>
                             </div>
                             <div class="col-md-5 text-center text-md-end">
                                 <div class="footer-links">
                                     <ul>
-                                        <li><a href="about.html">Terms & Condition</a></li>
-                                        <li><a href="about.html">Privacy & Policy</a></li>
+                                        <li><a href="about.php">Terms & Condition</a></li>
+                                        <li><a href="about.php">Privacy & Policy</a></li>
                                     </ul>
                                 </div>
                             </div>
