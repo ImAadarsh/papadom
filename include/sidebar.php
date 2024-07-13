@@ -4,7 +4,7 @@
         <div class="widget">
             <div class="th-widget-about">
                 <div class="about-logo">
-                    <a href="index.php"><img src="assets/img/logo.svg" alt="Papadom ON the Hill"></a>
+                    <a href="index.php"><img src="assets/img/papadom.png" style="width: 120px !important;" alt="Restar"></a>
                 </div>
                 <p class="about-text">We are West Norwood's local Indian takeaway, serving the community since 1993. Our experienced team, led by Manager Mr LUKE, Chef Mr Zakariya, and Mr Buddha, ensures high-quality food and excellent customer service.</p>
                 <div class="th-social">

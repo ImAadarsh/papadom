@@ -17,34 +17,44 @@
 
     <div id="smooth-wrapper">
         <div id="smooth-content">
-            <!--==============================
-        Hero Area
-        ==============================-->
+    
+      <!--   Hero Area==============================-->
             <div class="th-hero-wrapper hero-3" id="hero">
                 <div class="banner-area">
                     <div class="ball-shape">
-                        <!-- [Existing ball shapes...] -->
+                        <div class="img1">
+                            <img src="assets/img/hero/ball_1.svg" alt="shape">
+                        </div>
+                        <div class="img2">
+                            <img src="assets/img/hero/ball_2.svg" alt="shape">
+                        </div>
+                        <div class="img3">
+                            <img src="assets/img/hero/ball_3.svg" alt="shape">
+                        </div>
                     </div>
-                    <div class="swiper th-slider" data-bg-src="assets/img/hero/hero_bg_3_1.png" id="heroSlide3"
-                        data-slider-options='{"effect":"fade","autoHeight":true}'>
+                    <div class="swiper th-slider" data-bg-src="assets/img/hero/hero_bg_3_1.png" id="heroSlide3" data-slider-options='{"effect":"fade","autoHeight":true}'>
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="hero-inner">
                                     <div class="hero-overlay" data-ani="slideinright" data-ani-delay="0.7s"></div>
                                     <div class="container th-container">
                                         <div class="hero-style3">
-                                            <span class="hero-subtitle text-center" data-ani="slideinup"
-                                                data-ani-delay="0.2s">Authentic & Delicious</span>
-                                            <h1 class="hero-title4" data-ani="slideinup" data-ani-delay="0.4s">Indian
-                                            </h1>
-                                            <h2 class="hero-title3" data-ani="slideinup" data-ani-delay="0.5s">Takeaway
-                                            </h2>
-                                            <a href="reservation.php" class="th-btn" data-ani="slideinup"
-                                                data-ani-delay="0.7s">Order Now</a>
+                                            <span class="hero-subtitle text-center" data-ani="slideinup" data-ani-delay="0.2s">Healthy & Quality</span>
+                                            <h1 class="hero-title4" data-ani="slideinup" data-ani-delay="0.4s">Delicious</h1>
+                                            <h2 class="hero-title3" data-ani="slideinup" data-ani-delay="0.5s">Food Menu</h2>
+                                            <a href="menu.php" class="th-btn" data-ani="slideinup" data-ani-delay="0.7s">Order Now</a>
                                         </div>
                                     </div>
                                     <div class="hero-img">
-                                        <!-- [Existing hero image elements...] -->
+                                        <div class="shape1" data-ani="slideinup" data-ani-delay="0.5s">
+                                        <img src="assets/img/hero/hero_shape_3_3.png" alt="shape">
+                                        </div>
+                                        <div class="offer" data-ani="slideinup" data-ani-delay="0.4s">
+                                            <img src="assets/img/images/hero_offer_1.svg" alt="shape">
+                                        </div>
+                                        <div class="img1" data-ani="slideinright" data-ani-delay="0.1s">
+                                            <img src="assets/img/images/slides/slide_1.png" alt="Image">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -53,18 +63,22 @@
                                     <div class="hero-overlay" data-ani="slideinright" data-ani-delay="0.7s"></div>
                                     <div class="container th-container">
                                         <div class="hero-style3">
-                                            <span class="hero-subtitle text-center" data-ani="slideinup"
-                                                data-ani-delay="0.2s">Serving Since 1993</span>
-                                            <h1 class="hero-title4" data-ani="slideinup" data-ani-delay="0.4s">West
-                                                Norwood's</h1>
-                                            <h2 class="hero-title3" data-ani="slideinup" data-ani-delay="0.5s">Favorite
-                                            </h2>
-                                            <a href="reservation.php" class="th-btn" data-ani="slideinup"
-                                                data-ani-delay="0.7s">Order Now</a>
+                                            <span class="hero-subtitle text-center" data-ani="slideinup" data-ani-delay="0.2s">Healthy & Quality</span>
+                                            <h1 class="hero-title4" data-ani="slideinup" data-ani-delay="0.4s">Qualified</h1>
+                                            <h2 class="hero-title3" data-ani="slideinup" data-ani-delay="0.5s">Food Chart</h2>
+                                            <a href="menu.php" class="th-btn" data-ani="slideinup" data-ani-delay="0.7s">Order Now</a>
                                         </div>
                                     </div>
                                     <div class="hero-img">
-                                        <!-- [Existing hero image elements...] -->
+                                        <div class="shape1" data-ani="slideinup" data-ani-delay="0.5s">
+                                            <img src="assets/img/hero/hero_shape_3_3.png" alt="shape">
+                                        </div>
+                                        <div class="offer" data-ani="slideinup" data-ani-delay="0.4s">
+                                            <img src="assets/img/hero/hero_offer_1.svg" alt="shape">
+                                        </div>
+                                        <div class="img1" data-ani="slideinright" data-ani-delay="0.1s">
+                                            <img src="assets/img/hero/hero_3_2.png" alt="Image">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -73,30 +87,52 @@
                                     <div class="hero-overlay" data-ani="slideinright" data-ani-delay="0.7s"></div>
                                     <div class="container th-container">
                                         <div class="hero-style3">
-                                            <span class="hero-subtitle text-center" data-ani="slideinup"
-                                                data-ani-delay="0.2s">Expertly Prepared</span>
-                                            <h1 class="hero-title4" data-ani="slideinup" data-ani-delay="0.4s">
-                                                Traditional</h1>
-                                            <h2 class="hero-title3" data-ani="slideinup" data-ani-delay="0.5s">Indian
-                                                Cuisine</h2>
-                                            <a href="reservation.php" class="th-btn" data-ani="slideinup"
-                                                data-ani-delay="0.7s">Order Now</a>
+                                            <span class="hero-subtitle text-center" data-ani="slideinup" data-ani-delay="0.2s">Healthy & Quality</span>
+                                            <h1 class="hero-title4" data-ani="slideinup" data-ani-delay="0.4s">Fast Food</h1>
+                                            <h2 class="hero-title3" data-ani="slideinup" data-ani-delay="0.5s">Food Menu</h2>
+                                            <a href="menu.php" class="th-btn" data-ani="slideinup" data-ani-delay="0.7s">Order Now</a>
                                         </div>
                                     </div>
                                     <div class="hero-img">
-                                        <!-- [Existing hero image elements...] -->
+                                        <div class="shape1" data-ani="slideinup" data-ani-delay="0.5s">
+                                            <img src="assets/img/hero/hero_shape_3_3.png" alt="shape">
+                                        </div>
+                                        <div class="offer" data-ani="slideinup" data-ani-delay="0.4s">
+                                            <img src="assets/img/hero/hero_offer_1.svg" alt="shape">
+                                        </div>
+                                        <div class="img1" data-ani="slideinright" data-ani-delay="0.1s">
+                                            <img src="assets/img/images/slides/slide_2.png" alt="Image">
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="hero-bottom">
-                        <!-- [Existing hero bottom elements...] -->
+                        <div class="icon-box">
+                            <button data-slider-prev="#heroSlide3" class="slider-arrow slider-prev default"><span class="icon"></span></button>
+                            <button data-slider-next="#heroSlide3" class="slider-arrow slider-next default"><span class="icon"></span></button>
+                        </div>
+                        <div class="hero-thumb" data-slider-tab="#heroSlide3">
+                            <div class="tab-btn active">
+                                <img src="assets/img/hero/hero_thumb_1.png" alt="Image">
+                            </div>
+                            <div class="tab-btn">
+                                <img src="assets/img/hero/hero_thumb_2.png" alt="Image">
+                            </div>
+                            <div class="tab-btn">
+                                <img src="assets/img/hero/hero_thumb_3.png" alt="Image">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <a href="reservation.php" class="hero-btn">Order Online</a>
+                <a href="reservation.html" class="hero-btn">Book A Table</a>
                 <div class="hero-social">
-                    <!-- [Existing social links...] -->
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
                 </div>
             </div>
             <!--======== / Hero Section ========-->
@@ -175,7 +211,7 @@
                 <div class="container">
                     <div class="row gy-30 justify-content-center">
                         <div class="col-lg-6">
-                            <div class="cta-card" data-bg-src="assets/img/bg/cta_bg_21.jpg">
+                            <div class="cta-card" data-bg-src="assets/img/images/card_banner_1.png">
                                 <div class="box-price">
                                     <div class="bg">
                                         <img src="assets/img/bg/shape_bg_1.svg" alt="bg">
@@ -187,14 +223,14 @@
                                 </div>
                                 <h3 class="box-title title-ani2">Authentic</h3>
                                 <h4 class="box-heading title-ani2">CHICKEN TIKKA</h4>
-                                <h4 class="box-text title-ani2">Tandoori Special</h4>
+                                <h4 class="box-text title-ani2">Chef's Recommendation </h4>
                                 <div class="text-ani">
-                                    <a href="shop-details.php" class="th-btn btn-sm style3">Order Now</a>
+                                    <a href="menu.php" class="th-btn btn-sm style3">Order Now</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="cta-card" data-bg-src="assets/img/bg/cta_bg_22.jpg">
+                            <div class="cta-card" data-bg-src="assets/img/images/card_banner_2.png">
                                 <div class="box-price">
                                     <div class="bg">
                                         <img src="assets/img/bg/shape_bg_1.svg" alt="bg">
@@ -205,10 +241,10 @@
                                     </div>
                                 </div>
                                 <h3 class="box-title title-ani2">Delicious</h3>
-                                <h4 class="box-heading title-ani2">LAMB BIRYANI</h4>
+                                <h4 class="box-heading title-ani2">Tandoori Chicken</h4>
                                 <h4 class="box-text title-ani2">Chef's Recommendation</h4>
                                 <div class="text-ani">
-                                    <a href="shop-details.php" class="th-btn btn-sm style3">Order Now</a>
+                                    <a href="menu.php" class="th-btn btn-sm style3">Order Now</a>
                                 </div>
                             </div>
                         </div>
@@ -459,7 +495,7 @@
                                 <h2 class="sec-title title-ani2 h1 text-white mb-30">Handi Green Chicken Masala</h2>
                                 <h2 class="sec-title title-ani2 text-white mb-32">Limited Time Offer</h2>
                                 <div class="text-ani">
-                                    <a href="shop-details.php" class="th-btn style3">Order Now</a>
+                                    <a href="menu.php" class="th-btn style3">Order Now</a>
                                 </div>
                             </div>
                         </div>
@@ -513,7 +549,7 @@
                                 </div>
                             </div>
                             <div class="text-ani">
-                                <a href="shop.php" class="th-btn style-border">Order Now</a>
+                                <a href="menu.php" class="th-btn style-border">Order Now</a>
                             </div>
                         </div>
                     </div>
@@ -712,21 +748,21 @@
                             <div class="offer-box mega-hover" data-bg-src="assets/img/bg/cta_bg_41.jpg">
                                 <h3 class="box-title title-ani2">TANDOORI</h3>
                                 <p class="box-text title-ani2">20% Off on All Tandoori Dishes</p>
-                                <a href="shop-details.php" class="line-btn title-ani2">Order Now</a>
+                                <a href="menu.php" class="line-btn title-ani2">Order Now</a>
                             </div>
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="offer-box mega-hover" data-bg-src="assets/img/bg/cta_bg_42.jpg">
                                 <h3 class="box-title title-ani2">BIRYANI</h3>
                                 <p class="box-text title-ani2">Free Raita with Every Biryani</p>
-                                <a href="shop-details.php" class="line-btn title-ani2">Order Now</a>
+                                <a href="menu.php" class="line-btn title-ani2">Order Now</a>
                             </div>
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="offer-box mega-hover" data-bg-src="assets/img/bg/cta_bg_43.jpg">
                                 <h3 class="box-title title-ani2">VEGETARIAN</h3>
                                 <p class="box-text title-ani2">15% Off on Vegetarian Mains</p>
-                                <a href="shop-details.php" class="line-btn title-ani2">Order Now</a>
+                                <a href="menu.php" class="line-btn title-ani2">Order Now</a>
                             </div>
                         </div>
                     </div>

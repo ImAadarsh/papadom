@@ -5,8 +5,8 @@
                 <div class="w-100">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
-                            <div class="header-logo">
-                                <a href="index.php"><img src="assets/img/logo-white.svg" alt="Restar"></a>
+                            <div style="background-color: #EFEADE;" class="header-logo">
+                                <a href="index.php"><img src="assets/img/papadom.png" style="width: 85px !important;" alt="Restar"></a>
                             </div>
                         </div>
                         <div class="col-auto">

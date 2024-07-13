@@ -2,7 +2,7 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.php"><img src="assets/img/logo.svg" alt="Restar"></a>
+                <a href="index.php"><img src="assets/img/papadom.png" style="width: 70px !important;" alt="Restar"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
