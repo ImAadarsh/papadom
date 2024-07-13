@@ -149,7 +149,7 @@
                                 <div class="swiper-slide">
                                     <div class="category-box">
                                         <div class="box-img">
-                                            <img src="assets/img/normal/category_box_1.png" alt="Image">
+                                            <img src="assets/img/images/categories/category_1.png" alt="Image">
                                         </div>
                                         <h3 class="box-title"><a href="shop.php">Starters</a></h3>
                                     </div>
@@ -157,7 +157,7 @@
                                 <div class="swiper-slide">
                                     <div class="category-box">
                                         <div class="box-img">
-                                            <img src="assets/img/normal/category_box_2.png" alt="Image">
+                                            <img src="assets/img/images/categories/category_2.png" alt="Image">
                                         </div>
                                         <h3 class="box-title"><a href="shop.php">Tandoori Dishes</a></h3>
                                     </div>
@@ -165,7 +165,7 @@
                                 <div class="swiper-slide">
                                     <div class="category-box">
                                         <div class="box-img">
-                                            <img src="assets/img/normal/category_box_3.png" alt="Image">
+                                            <img src="assets/img/images/categories/category_3.png" alt="Image">
                                         </div>
                                         <h3 class="box-title"><a href="shop.php">Biryani</a></h3>
                                     </div>
@@ -173,7 +173,7 @@
                                 <div class="swiper-slide">
                                     <div class="category-box">
                                         <div class="box-img">
-                                            <img src="assets/img/normal/category_box_4.png" alt="Image">
+                                            <img src="assets/img/images/categories/category_4.png" alt="Image">
                                         </div>
                                         <h3 class="box-title"><a href="shop.php">Vegetarian</a></h3>
                                     </div>
@@ -181,7 +181,7 @@
                                 <div class="swiper-slide">
                                     <div class="category-box">
                                         <div class="box-img">
-                                            <img src="assets/img/normal/category_box_5.png" alt="Image">
+                                            <img src="assets/img/images/categories/category_5.png" alt="Image">
                                         </div>
                                         <h3 class="box-title"><a href="shop.php">Chef's Special</a></h3>
                                     </div>
@@ -189,7 +189,7 @@
                                 <div class="swiper-slide">
                                     <div class="category-box">
                                         <div class="box-img">
-                                            <img src="assets/img/normal/category_box_6.png" alt="Image">
+                                            <img src="assets/img/images/categories/category_8.png" alt="Image">
                                         </div>
                                         <h3 class="box-title"><a href="shop.php">Sides & Breads</a></h3>
                                     </div>
@@ -267,10 +267,10 @@
                         <div class="col-xl-7 mb-40 mb-xl-0">
                             <div class="img-box6">
                                 <div class="shape1">
-                                    <img src="assets/img/normal/about_4_2.png" alt="shape" data-speed="1.17">
+                                    <img src="assets/img/images/about_4_2.png" alt="shape" data-speed="1.17">
                                 </div>
                                 <div class="img1">
-                                    <img src="assets/img/normal/about_4_1.png" alt="Why">
+                                    <img src="assets/img/images/main.png" alt="Why">
                                 </div>
                             </div>
                         </div>
@@ -476,9 +476,9 @@
         ==============================-->
             <section class="overflow-hidden" data-bg-src="assets/img/bg/cta_bg_3.jpg">
                 <div class="shape-mockup jump-reverse d-none d-xl-block" data-bottom="-10%" data-left="0"><img
-                        src="assets/img/shape/pata.png" alt="shape" data-speed="1.17"></div>
+                        src="assets/img/images/pata.png" alt="shape" data-speed="1.17"></div>
                 <div class="shape-mockup jump d-none d-xl-block" data-bottom="10%" data-right="0"><img
-                        src="assets/img/shape/tomato_2.png" alt="shape" data-speed="1.12"></div>
+                        src="assets/img/images/lemon_dhaniya.png" alt="shape" data-speed="1.12"></div>
                 <div class="container pb-40 pb-lg-0">
                     <div class="row flex-row-reverse align-items-center">
                         <div class="col-lg-6">
