@@ -473,11 +473,9 @@
 /* Header 2 ---------------------------------- */
 .header-call {
     margin: 0 14px;
-    border-left: 1px solid $title-color;
+    // border-left: 1px solid $title-color;
     padding-left: 30px;
-    @include ml {
-        display: none;
-    }
+   
     .box-title {
         font-size: 22px;
         margin-bottom: 2px;
