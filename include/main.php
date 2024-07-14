@@ -168,6 +168,10 @@
 .header-call .box-text {
     font-size: 11px;
     color: var(--title-color);
+}.header-call {
+    margin: 0 6px;
+    border-left: 0px transparent var(--title-color);
+    padding-left: 0px;
 }
   }
 </style>
