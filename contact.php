@@ -37,7 +37,7 @@
             <!--==============================
             Breadcumb
             ============================== -->
-            <div class="breadcumb-wrapper" data-bg-src="images/papadom_banner.png">
+            <div class="breadcumb-wrapper" data-bg-src="images/papadom_spices.png">
                 <div class="container">
                     <div class="breadcumb-content">
                         <h1 class="breadcumb-title">Contact Us</h1>

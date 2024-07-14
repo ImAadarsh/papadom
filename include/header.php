@@ -31,12 +31,7 @@
                             </nav>
                         </div>
                         <div class="col-auto">
-                            <div class="header-button">
-                                <form class="header-search">
-                                    <input type="text" placeholder="Enter Keyword">
-                                    <button type="submit"><i class="far fa-search"></i></button>
-                                </form>
-                                
+                            <div class="header-button"> 
                                 <div class="header-call">
                                     <h3 class="box-title"><a href="tel:+442087614318"><span class="icon"></span> 
                                    +44 20 8761 4318</a></h3>

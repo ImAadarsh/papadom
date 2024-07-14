@@ -628,9 +628,7 @@
     }
     .header-call {
         border-color: $body-color;
-        @include ml {
-            display: none;
-        }
+       
         .box-title {
             color: $white-color;
         }
@@ -676,7 +674,7 @@
             margin-right: 12px;
         }
         .header-logo {
-            padding: 12px;
+            padding: 5px;
         }
     }
 } 

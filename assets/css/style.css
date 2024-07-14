@@ -6240,7 +6240,7 @@ ol.wp-block-rss {
     font-size: 36px;
   }
   .header-logo img {
-    max-width: 50px;
+    max-width: 85px;
   }
 }
 
@@ -6250,7 +6250,7 @@ ol.wp-block-rss {
     font-size: 15px;
   }
   .header-logo img {
-    max-width: 40px;
+    max-width: 80px;
   }
 }
 
@@ -6273,9 +6273,9 @@ ol.wp-block-rss {
 }
 
 @media (max-width: 1399px) {
-  .header-call {
+  /* .header-call {
     display: none;
-  }
+  } */
 }
 
 .header-call .box-title {
