@@ -7,9 +7,7 @@
     <title>Pappadom On The Hill - Menu | Order Now</title>
 <?php include "include/main.php" ?>
 <style>
-    #papadomlogo{
-        width: 50px !important;
-    }
+  
 </style>
 
 </head>

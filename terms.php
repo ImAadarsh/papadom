@@ -10,7 +10,11 @@
     <div class="has-smooth" id="has_smooth"></div>
     <?php include "include/mobile.php" ?>
 <?php include "include/header.php" ?>
-
+<style>
+    p{
+text-align: justify;
+    }
+</style>
 <div id="smooth-wrapper">
     <div id="smooth-content">
         <main>

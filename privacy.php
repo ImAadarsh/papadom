@@ -5,6 +5,11 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Pappadom On The Hill - Privacy Policy</title>
     <?php include "include/main.php" ?>
+    <style>
+           p{
+text-align: justify;
+    }
+    </style>
 </head>
 <body>
     <div class="has-smooth" id="has_smooth"></div><div class="popup-search-box d-none d-lg-block">
