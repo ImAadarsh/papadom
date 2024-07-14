@@ -161,5 +161,13 @@
     .header-layout3 .header-call{
       display: block !important;
     }
+    .header-call .box-title {
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+.header-call .box-text {
+    font-size: 11px;
+    color: var(--title-color);
+}
   }
 </style>
