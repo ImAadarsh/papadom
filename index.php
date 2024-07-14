@@ -126,12 +126,12 @@
                         </div>
                     </div>
                 </div>
-                <a href="reservation.html" class="hero-btn">Book A Table</a>
+                <a href="menu.php" class="hero-btn">Order Now</a>
                 <div class="hero-social">
                     <div class="social-links">
-                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.facebook.com/people/Papadom-On-The-Hill/61561970363412/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/papadom.uk/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/+447427528900"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>

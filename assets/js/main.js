@@ -988,24 +988,24 @@
     if ($(".hero-style2 .hero-title3").length > 0) {
         animateHeroTitles('.hero-style2 .hero-title3');
     }
-    if ($(".sub-title2").length > 0) {
-        animateHeroTitles('.sub-title2');
-    }
-    if ($(".sub-title2 + .sec-title").length > 0) {
-        animateHeroTitles('.sub-title2 + .sec-title');
-    }
-    if ($(".sub-title3").length > 0) {
-        animateHeroTitles('.sub-title3');
-    }
-    if ($(".sub-title3 + .sec-title").length > 0) {
-        animateHeroTitles('.sub-title3 + .sec-title');
-    }
-    if ($(".sub-title4").length > 0) {
-        animateHeroTitles('.sub-title4');
-    }
-    if ($(".sub-title4 + .sec-title").length > 0) {
-        animateHeroTitles('.sub-title4 + .sec-title');
-    }
+    // if ($(".sub-title2").length > 0) {
+    //     animateHeroTitles('.sub-title2');
+    // }
+    // if ($(".sub-title2 + .sec-title").length > 0) {
+    //     animateHeroTitles('.sub-title2 + .sec-title');
+    // }
+    // if ($(".sub-title3").length > 0) {
+    //     animateHeroTitles('.sub-title3');
+    // }
+    // if ($(".sub-title3 + .sec-title").length > 0) {
+    //     animateHeroTitles('.sub-title3 + .sec-title');
+    // }
+    // if ($(".sub-title4").length > 0) {
+    //     animateHeroTitles('.sub-title4');
+    // }
+    // if ($(".sub-title4 + .sec-title").length > 0) {
+    //     animateHeroTitles('.sub-title4 + .sec-title');
+    // }
     
 
     let gsapflipX = gsap.utils.toArray(".flipX")
