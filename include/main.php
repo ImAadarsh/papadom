@@ -157,4 +157,9 @@
   .whatsapp-message.show {
     opacity: 1;
   }
+  @media (max-width: 1399px) {
+    .header-layout3 .header-call{
+      display: block !important;
+    }
+  }
 </style>

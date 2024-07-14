@@ -138,7 +138,7 @@
                                     </div>
                                 </div>
                                 <img class="mb-40" src="assets/img/shape/line_dotted_1.svg" alt="shape">
-                                <h3 class="box-title">Mr LUKE</h3>
+                                <h3 class="box-title">Mr Buddha</h3>
                                 <p>Manager since 1993</p>
                             </div>
                         </div>
@@ -158,9 +158,9 @@
                         <div class="col-md-4">
                             <div class="th-team team-card">
                                 <div class="box-img">
-                                    <img src="assets/img/team/team_1_1.jpg" alt="Mr LUKE">
+                                    <img src="assets/img/team/team_1_1.jpg" alt="Mr Buddha">
                                 </div>
-                                <h3 class="box-title">Mr LUKE</h3>
+                                <h3 class="box-title">Mr Buddha</h3>
                                 <p class="box-desig">Manager</p>
                             </div>
                         </div>

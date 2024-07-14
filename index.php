@@ -483,15 +483,15 @@
                         <div class="col-lg-6">
                             <div class="cta-img1">
                                 <div class="img1">
-                                    <img src="images/deal.png" alt="Food">
+                                    <img src="images/combo-meal.png" alt="Food">
                                 </div>
                                 <h4 class="price" data-bg-src="assets/img/bg/shape_bg_2.svg">£16.95</h4>
                             </div>
                         </div>
                         <div class="col-lg-6 pt-40 pb-40">
                             <div class="text-center text-lg-start">
-                                <h4 class="text-theme title-ani2 mb-35">Chef's Special</h4>
-                                <h2 class="sec-title title-ani2 h1 text-white mb-30">Como Meal Offer</h2>
+                                <h4 class="text-theme title-ani2 mb-35">Papadom's Special</h4>
+                                <h2 class="sec-title title-ani2 h1 text-white mb-30">Meal Offer</h2>
                                 <h2 class="sec-title title-ani2 text-white mb-32">Limited Time Offer</h2>
                                 <div class="text-ani">
                                     <a href="menu.php" class="th-btn style3">Order Now</a>
@@ -654,13 +654,13 @@
                             <div class="menu-list-block">
                                 <div class="menu-list">
                                     <div class="box-img">
-                                        <img src="smalldishes/6.png" alt="Palak Paneer">
+                                        <img src="smalldishes/6.png" alt="Sag Paneer">
                                         <div class="actions">
                                             <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="menu.php">Palak Paneer</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Sag Paneer</a></h3>
                                         <div class="box-content">
                                             <p class="box-text">Cottage cheese cubes in a creamy spinach sauce</p>
                                             <div class="box-line"></div>
@@ -718,17 +718,17 @@
                                 </div>
                                 <div class="menu-list">
                                     <div class="box-img">
-                                        <img src="smalldishes/10.png" alt="Mango Lassi">
+                                        <img src="images/oninion-dish.png" alt="Onion Bhaji">
                                         <div class="actions">
                                             <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
                                         </div>
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title"><a href="menu.php">Mango Lassi</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Onion Bhaji</a></h3>
                                         <div class="box-content">
-                                            <p class="box-text">Refreshing yogurt-based mango drink</p>
+                                            <p class="box-text">Chef Special Dish</p>
                                             <div class="box-line"></div>
-                                            <h4 class="box-price">£3.50</h4>
+                                            <h4 class="box-price">£4.95</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -745,22 +745,22 @@
                     <div class="row offer-box-row">
                         <div class="col-xl-4 col-md-6">
                             <div class="offer-box mega-hover" data-bg-src="dishes/offer_box1.png">
-                                <h3 class="box-title title-ani2">TANDOORI</h3>
-                                <p class="box-text title-ani2">20% Off on All Tandoori Dishes</p>
-                                <a href="menu.php" class="line-btn title-ani2">Order Now</a>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6">
-                            <div class="offer-box mega-hover" data-bg-src="dishes/offer_box2.png">
-                                <h3 class="box-title title-ani2">BIRYANI</h3>
-                                <p class="box-text title-ani2">Free Raita with Every Biryani</p>
+                                <h3 class="box-title title-ani2">Traditional Dishes</h3>
+                                <p class="box-text title-ani2">Upto 10% Off On whatsapp Order</p>
                                 <a href="menu.php" class="line-btn title-ani2">Order Now</a>
                             </div>
                         </div>
                         <div class="col-xl-4 col-md-6">
                             <div class="offer-box mega-hover" data-bg-src="dishes/offer_box3.png">
+                                <h3 class="box-title title-ani2">Chicken Tikka</h3>
+                                <p class="box-text title-ani2">Get Extra Off On Call Order</p>
+                                <a href="menu.php" class="line-btn title-ani2">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-6">
+                            <div class="offer-box mega-hover" data-bg-src="dishes/offer_box2.png">
                                 <h3 class="box-title title-ani2">VEGETARIAN</h3>
-                                <p class="box-text title-ani2">15% Off on Vegetarian Mains</p>
+                                <p class="box-text title-ani2">Upto 15% Off on Vegetarian Mains</p>
                                 <a href="menu.php" class="line-btn title-ani2">Order Now</a>
                             </div>
                         </div>

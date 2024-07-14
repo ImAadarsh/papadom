@@ -6,7 +6,7 @@
                 <div class="about-logo">
                     <a href="index.php"><img src="assets/img/papadom.png" style="width: 120px !important;" alt="papadomlogo"></a>
                 </div>
-                <p class="about-text">We are West Norwood's local Indian takeaway, serving the community since 1993. Our experienced team, led by Manager Mr LUKE, Chef Mr Zakariya, and Mr Buddha, ensures high-quality food and excellent customer service.</p>
+                <p class="about-text">We are West Norwood's local Indian takeaway, serving the community since 1993. Our experienced team, led by Manager Mr Buddha, Chef Mr Zakariya, and Mr Buddha, ensures high-quality food and excellent customer service.</p>
                 <div class="th-social">
                     <a href="https://www.facebook.com/people/Papadom-On-The-Hill/61561970363412/"><i class="fab fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/papadom.uk/"><i class="fab fa-instagram"></i></a>
