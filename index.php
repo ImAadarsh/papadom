@@ -53,7 +53,7 @@
                                         <img src="assets/img/hero/hero_shape_3_3.png" alt="shape2">
                                         </div>
                                         <div class="offer" data-ani="slideinup" data-ani-delay="0.4s">
-                                        <img src="assets/img/hero/hero_offer_1.svg" alt="shape">
+                                        <img src="gallery/paint.svg" alt="shape">
                                         </div>
                                         <div class="img1" data-ani="slideinright" data-ani-delay="0.1s">
                                             <img src="assets/img/images/slides/slide_1.png" alt="Image">
@@ -77,10 +77,10 @@
                                             <img src="assets/img/hero/hero_shape_3_3.png" alt="shape">
                                         </div>
                                         <div class="offer" data-ani="slideinup" data-ani-delay="0.4s">
-                                            <img src="assets/img/hero/hero_offer_1.svg" alt="shape">
+                                            <img src="gallery/paint.svg" alt="shape">
                                         </div>
                                         <div class="img1" data-ani="slideinright" data-ani-delay="0.1s">
-                                            <img src="assets/img/hero/hero_3_2.png" alt="Image">
+                                            <img src="gallery/main3.png" alt="Image">
                                         </div>
                                     </div>
                                 </div>
@@ -101,7 +101,7 @@
                                             <img src="assets/img/hero/hero_shape_3_3.png" alt="shape">
                                         </div>
                                         <div class="offer" data-ani="slideinup" data-ani-delay="0.4s">
-                                            <img src="assets/img/hero/hero_offer_1.svg" alt="shape">
+                                            <img src="gallery/paint.svg" alt="shape">
                                         </div>
                                         <div class="img1" data-ani="slideinright" data-ani-delay="0.1s">
                                             <img src="assets/img/images/slides/slide_2.png" alt="Image">
@@ -152,7 +152,7 @@
                                 <div class="swiper-slide">
                                     <div class="category-box">
                                         <div class="box-img">
-                                            <img src="assets/img/images/categories/category_1.png" alt="Image">
+                                            <img src="images/1.png" alt="Image">
                                         </div>
                                         <h3 class="box-title"><a href="shop.php">Starters</a></h3>
                                     </div>
@@ -160,7 +160,7 @@
                                 <div class="swiper-slide">
                                     <div class="category-box">
                                         <div class="box-img">
-                                            <img src="assets/img/images/categories/category_2.png" alt="Image">
+                                            <img src="images/2.png" alt="Image">
                                         </div>
                                         <h3 class="box-title"><a href="shop.php">Tandoori Dishes</a></h3>
                                     </div>
@@ -168,7 +168,7 @@
                                 <div class="swiper-slide">
                                     <div class="category-box">
                                         <div class="box-img">
-                                            <img src="assets/img/images/categories/category_3.png" alt="Image">
+                                            <img src="images/3.png" alt="Image">
                                         </div>
                                         <h3 class="box-title"><a href="shop.php">Biryani</a></h3>
                                     </div>
@@ -176,7 +176,7 @@
                                 <div class="swiper-slide">
                                     <div class="category-box">
                                         <div class="box-img">
-                                            <img src="assets/img/images/categories/category_4.png" alt="Image">
+                                            <img src="images/4.png" alt="Image">
                                         </div>
                                         <h3 class="box-title"><a href="shop.php">Vegetarian</a></h3>
                                     </div>
@@ -184,7 +184,7 @@
                                 <div class="swiper-slide">
                                     <div class="category-box">
                                         <div class="box-img">
-                                            <img src="assets/img/images/categories/category_5.png" alt="Image">
+                                            <img src="images/5.png" alt="Image">
                                         </div>
                                         <h3 class="box-title"><a href="shop.php">Chef's Special</a></h3>
                                     </div>
@@ -192,7 +192,7 @@
                                 <div class="swiper-slide">
                                     <div class="category-box">
                                         <div class="box-img">
-                                            <img src="assets/img/images/categories/category_8.png" alt="Image">
+                                            <img src="images/6.png" alt="Image">
                                         </div>
                                         <h3 class="box-title"><a href="shop.php">Sides & Breads</a></h3>
                                     </div>
@@ -273,7 +273,7 @@
                                     <img src="assets/img/images/about_4_2.png" alt="shape" data-speed="1.17">
                                 </div>
                                 <div class="img1">
-                                    <img src="assets/img/images/main.png" alt="Why">
+                                    <img src="gallery/round.png" alt="Why">
                                 </div>
                             </div>
                         </div>
@@ -405,7 +405,7 @@
                         <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat1 cat2">
                             <div class="th-product product-grid">
                                 <div class="product-img transparent-img">
-                                    <img src="dishes/2.png" alt="Onion Bhaji">
+                                    <img src="dishes/onion.png" alt="Onion Bhaji">
                                     <div class="actions">
                                         
                                         <a href="menu.php" class="icon-btn"><i class="far fa-cart-plus"></i></a>
