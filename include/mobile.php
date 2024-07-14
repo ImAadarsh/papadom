@@ -2,7 +2,7 @@
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.php"><img src="assets/img/papadom.png" style="width: 85px !important;" alt="Papadom On The Hill"></a>
+                <a href="index.php"><img src="assets/img/papadom.png" style="width: 145px !important;" alt="Papadom On The Hill"></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
