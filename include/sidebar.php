@@ -8,10 +8,9 @@
                 </div>
                 <p class="about-text">We are West Norwood's local Indian takeaway, serving the community since 1993. Our experienced team, led by Manager Mr LUKE, Chef Mr Zakariya, and Mr Buddha, ensures high-quality food and excellent customer service.</p>
                 <div class="th-social">
-                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/people/Papadom-On-The-Hill/61561970363412/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/papadom.uk/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/+447427528900"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
         </div>
