@@ -6,7 +6,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div style="background-color: #EFEADE;" class="header-logo">
-                                <a href="index.php"><img src="assets/img/papadom.png" style="width: 85px !important;" id="papadomlogo" alt="Restar"></a>
+                                <a href="index.php"><img src="assets/img/papadom.png" style="width: 85px !important;" id="papadomlogo" alt="papadomlogo"></a>
                             </div>
                         </div>
                         <div class="col-auto">

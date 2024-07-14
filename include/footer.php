@@ -19,7 +19,7 @@
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
                             <div class="about-logo">
-                                <a href="index.php"><img src="assets/img/papadom.png" style="width: 170px !important;" alt="Restar"></a>
+                                <a href="index.php"><img src="assets/img/papadom.png" style="width: 170px !important;" alt="papadomlogo"></a>
                             </div>
                             <p class="about-text">We are West Norwood's local Indian takeaway since 1993, offering delicious food prepared for your every appetite.</p>
                             <div class="info-box">
