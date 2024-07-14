@@ -92,5 +92,69 @@
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <style>
-      
-    </style>
+  .whatsapp-button-container {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    z-index: 50;
+    display: flex;
+    align-items: flex-end;
+  }
+  .whatsapp-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 9999px;
+    background-color: #25d366;
+  }
+  .whatsapp-button-ping {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 9999px;
+    background-color: #25d366;
+    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+  @keyframes ping {
+    75%, 100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+  .whatsapp-button-icon {
+    position: relative;
+    z-index: 20;
+  }
+  .whatsapp-message {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background-color: #fff;
+    color: #333;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-size: 0.875rem;
+    white-space: nowrap;
+    margin-bottom: 0.5rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  .whatsapp-message:after {
+    content: '';
+    position: absolute;
+    bottom: -0.5rem;
+    left: 1rem;
+    border-width: 0.5rem 0.5rem 0;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+  }
+  .whatsapp-message.show {
+    opacity: 1;
+  }
+</style>

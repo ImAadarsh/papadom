@@ -65,6 +65,7 @@
 </head>
 
 <body>
+<?php include "include/whatsapp.php"; ?>
     <?php include "include/header.php" ?>
 <br><br><br><br>
     <div class="breadcumb-wrapper" data-bg-src="images/papadom_spices.png">

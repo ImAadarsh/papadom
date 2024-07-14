@@ -9,6 +9,8 @@
 </head>
 
 <body class="theme-golden">
+
+<?php include "include/whatsapp.php"; ?>
     <!-- [Existing preloader, sidemenu, mobile menu code...] -->
 
     <?php include "include/sidebar.php" ?>
@@ -17,6 +19,7 @@
 
     <div id="smooth-wrapper">
         <div id="smooth-content">
+            
     
       <!--   Hero Area==============================-->
             <div class="th-hero-wrapper hero-3" id="hero">
@@ -222,7 +225,7 @@
                                     </div>
                                 </div>
                                 <h3 class="box-title title-ani2">Authentic</h3>
-                                <h4 class="box-heading title-ani2">CHICKEN TIKKA</h4>
+                                <h4 class="box-heading title-ani2">MALAI CHICKEN TIKKA</h4>
                                 <h4 class="box-text title-ani2">Chef's Recommendation </h4>
                                 <div class="text-ani">
                                     <a href="menu.php" class="th-btn btn-sm style3">Order Now</a>
@@ -434,7 +437,7 @@
                                     <div class="star-rating" role="img" aria-label="Rated 4.75 out of 5">
                                         <span>Rated <strong class="rating">4.75</strong> out of 5</span>
                                     </div>
-                                    <h3 class="product-title"><a href="menu.php">Lamb Biryani</a></h3>
+                                    <h3 class="product-title"><a href="menu.php">Chicken Biryani</a></h3>
                                     <span class="price">£9.95</span>
                                 </div>
                             </div>

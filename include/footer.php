@@ -1,3 +1,4 @@
+
 <footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/bg/footer_bg_2.jpg">
     <div class="container z-index-common">
         <div class="newsletter-wrap">
