@@ -1,4 +1,3 @@
-Certainly! Here's the full HTML content for the terms and conditions page, incorporating all the provided information:
 <!doctype html>
 <html class="no-js" lang="zxx">
 <head>
