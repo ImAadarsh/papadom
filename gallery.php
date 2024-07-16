@@ -66,19 +66,46 @@
 
 <body>
 <?php include "include/whatsapp.php"; ?>
+    <!--[if lte IE 9]>
+
+    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  	<![endif]-->
+
+    <!-- Scroll Smoother -->
+    <div class="has-smooth" id="has_smooth"></div>
+
+    <!--==============================
+     Preloader
+    ==============================-->
+    <!--==============================
+    Sidemenu
+    ============================== -->
+    <?php include "include/sidebar.php" ?>
+    <!--==============================
+    Mobile Menu
+    ============================== -->
+    <?php include "include/mobile.php" ?>
+    <!--==============================
+	Header Area
+    ==============================-->
     <?php include "include/header.php" ?>
-<br><br><br><br>
-    <div class="breadcumb-wrapper" data-bg-src="images/papadom_spices.png">
-        <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Gallery</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li>Gallery</li>
-                </ul>
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <!--==============================
+            Breadcumb
+            ============================== -->
+            <div class="breadcumb-wrapper" data-bg-src="images/papadom_spices.png">
+                <div class="container">
+                    <div class="breadcumb-content">
+                        <h1 class="breadcumb-title">Gallery </h1>
+                        <ul class="breadcumb-menu">
+                            <li><a href="index.php">Home</a></li>
+                            <li>Gallery</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
    
             
 
@@ -271,7 +298,19 @@
     </section>
 
     <?php include "include/footer.php" ?>
+        </div>
+    </div>
 
+    <!-- Scroll To Top -->
+    <div class="scroll-top">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+        </svg>
+    </div>
+
+    <!--==============================
+    All Js File
+    ============================== -->
     <?php include "include/script.php" ?>
 </body>
 
