@@ -22,4 +22,23 @@
     <script src="assets/js/SplitText.min.js"></script>
 
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js?v=1.1"></script>
+
+    <script>
+    window.onpageshow = function(event) {
+        if (event.persisted) {
+            window.location.reload();
+        }
+    };
+    $.ajax({
+    url: 'https://papadomhill.com',
+    headers: {
+        'Cache-Control': 'no-cache, no-store, must-revalidate',
+        'Pragma': 'no-cache',
+        'Expires': '0'
+    },
+    success: function(data) {
+        // Handle the response
+    }
+});
+</script>
