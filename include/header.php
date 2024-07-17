@@ -33,8 +33,8 @@
                         <div class="col-auto">
                             <div class="header-button"> 
                                 <div class="header-call">
-                                    <h3 class="box-title"><a href="tel:+442087614318"><span class="icon"></span> 
-                                   +44 20 8761 4318</a></h3>
+                                    <h3 class="box-title"><a href="tel:02087614318"><span class="icon"></span> 
+                                   020 8761 4318</a></h3>
                                     <p class="box-text">Contact us for delivery</p>
                                 </div>
                                 <button type="button" class="square-btn sideMenuInfo">
