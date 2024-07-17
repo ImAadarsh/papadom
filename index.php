@@ -157,14 +157,14 @@
                                         <h3 class="box-title"><a href="shop.php">Starters</a></h3>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
+                                <!-- <div class="swiper-slide">
                                     <div class="category-box">
                                         <div class="box-img">
                                             <img src="images/2.png" alt="Image">
                                         </div>
                                         <h3 class="box-title"><a href="shop.php">Tandoori Dishes</a></h3>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="swiper-slide">
                                     <div class="category-box">
                                         <div class="box-img">
