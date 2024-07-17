@@ -72,7 +72,7 @@
                             <p class="mt-30 mb-3">Contact Us</p>
                             <h3 class="box-title"><a href="tel:02087614318">020 8761 4318</a></h3>
                             <h3 class="box-title"><a href="tel:02087615856">020 8761 5856</a></h3>
-                            <h3 class="box-title"><a href="tel:07427528900">07427 528900</a></h3>
+                            <h3 style="color: #25D366;" class="box-title"><a href="tel:07427528900">07427 528900</a></h3>
                         </div>
                     </div>
                 </div>
