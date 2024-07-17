@@ -2176,7 +2176,7 @@ textarea.is-invalid {
   background-color: var(--theme-color);
   color: var(--white-color);
   font-family: var(--body-font);
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1;
   padding: 21px 32px;
