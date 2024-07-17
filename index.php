@@ -160,7 +160,7 @@
                                 <div class="swiper-slide">
                                     <div class="category-box">
                                         <div class="box-img">
-                                            <img src="images/category_8.png" alt="Image">
+                                            <img src="dishes/category_8.png" alt="Image">
                                         </div>
                                         <h3 class="box-title"><a href="shop.php">Tandoori Dishes</a></h3>
                                     </div>
