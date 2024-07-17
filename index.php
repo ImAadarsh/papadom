@@ -154,7 +154,7 @@
                                         <div class="box-img">
                                             <img src="dishes/dimsum.png" alt="Image">
                                         </div>
-                                        <h3 class="box-title"><a href="shop.php">Starters</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Starters</a></h3>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
@@ -162,7 +162,7 @@
                                         <div class="box-img">
                                             <img src="dishes/category_8.png" alt="Image">
                                         </div>
-                                        <h3 class="box-title"><a href="shop.php">Tandoori Dishes</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Tandoori Dishes</a></h3>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
@@ -170,7 +170,7 @@
                                         <div class="box-img">
                                             <img src="images/3.png" alt="Image">
                                         </div>
-                                        <h3 class="box-title"><a href="shop.php">Biryani</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Biryani</a></h3>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
@@ -178,7 +178,7 @@
                                         <div class="box-img">
                                             <img src="images/4.png" alt="Image">
                                         </div>
-                                        <h3 class="box-title"><a href="shop.php">Vegetarian</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Vegetarian</a></h3>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
@@ -186,7 +186,7 @@
                                         <div class="box-img">
                                             <img src="images/5.png" alt="Image">
                                         </div>
-                                        <h3 class="box-title"><a href="shop.php">Chef's Special</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Chef's Special</a></h3>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
@@ -194,7 +194,7 @@
                                         <div class="box-img">
                                             <img src="images/6.png" alt="Image">
                                         </div>
-                                        <h3 class="box-title"><a href="shop.php">Sides & Breads</a></h3>
+                                        <h3 class="box-title"><a href="menu.php">Sides & Breads</a></h3>
                                     </div>
                                 </div>
                             </div>

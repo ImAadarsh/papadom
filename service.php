@@ -75,7 +75,7 @@
                                     <img src="assets/img/icon/feature_box_1.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.php">Authentic Indian Cuisine</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service.php">Authentic Indian Cuisine</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">Experience the rich flavors of traditional Indian dishes prepared by our expert chefs.</p>
                                     </div>
@@ -91,7 +91,7 @@
                                     <img src="assets/img/icon/feature_box_2.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.php">Takeaway Service</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service.php">Takeaway Service</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">Enjoy our delicious meals in the comfort of your own home with our takeaway service.</p>
                                     </div>
@@ -107,7 +107,7 @@
                                     <img src="assets/img/icon/feature_box_3.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.php">Quality Ingredients</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service.php">Quality Ingredients</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">We use only the finest ingredients to ensure every dish is delicious and satisfying.</p>
                                     </div>
@@ -123,7 +123,7 @@
                                     <img src="assets/img/icon/feature_box_4.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.php">Customizable Spice Levels</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service.php">Customizable Spice Levels</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">We cater to all palates by offering customizable spice levels for our dishes.</p>
                                     </div>
@@ -139,7 +139,7 @@
                                     <img src="assets/img/icon/feature_box_5.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.php">Local Community Focus</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service.php">Local Community Focus</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">Serving West Norwood since 1993, we're proud to be part of the local community.</p>
                                     </div>
@@ -155,7 +155,7 @@
                                     <img src="assets/img/icon/feature_box_6.svg" alt="icon">
                                 </div>
                                 <div class="media-body">
-                                    <h3 class="box-title text-ani"><a href="service-details.php">Vegetarian Options</a></h3>
+                                    <h3 class="box-title text-ani"><a href="service.php">Vegetarian Options</a></h3>
                                     <div class="text-ani">
                                         <p class="box-text">We offer a wide range of delicious vegetarian dishes to cater to all dietary preferences.</p>
                                     </div>
