@@ -8,7 +8,12 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # Remove .html extension and redirect to .php
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.*)\.html$ $1.php [L,R=301]
+RewriteRule ^(.*)\.html$ /$1.php [L,R=301]
+
+# If the .php file doesn't exist, try without extension
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
 # Prevent caching for all files
 <FilesMatch ".(html|htm|php|js|css)$">
