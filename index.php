@@ -118,13 +118,13 @@
                         </div>
                         <div class="hero-thumb" data-slider-tab="#heroSlide3">
                             <div class="tab-btn active">
-                                <img src="assets/img/hero/hero_thumb_1.png" alt="Image">
+                                <img src="categories_papadom/1.png" alt="Image">
                             </div>
                             <div class="tab-btn">
-                                <img src="assets/img/hero/hero_thumb_2.png" alt="Image">
+                                <img src="categories_papadom/2.png" alt="Image">
                             </div>
                             <div class="tab-btn">
-                                <img src="assets/img/hero/hero_thumb_3.png" alt="Image">
+                                <img src="categories_papadom/3.png" alt="Image">
                             </div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
                                 <div class="swiper-slide">
                                     <div class="category-box">
                                         <div class="box-img">
-                                            <img src="images/1.png" alt="Image">
+                                            <img src="dishes/category_8.png" alt="Image">
                                         </div>
                                         <h3 class="box-title"><a href="shop.php">Starters</a></h3>
                                     </div>
@@ -381,10 +381,10 @@
                         </div>
                     </div>
                     <div class="row gy-40 filter-active">
-                        <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat3">
+                        <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat3 cat2">
                             <div class="th-product product-grid">
                                 <div class="product-img transparent-img">
-                                    <img src="dishes/1.png" alt="Chicken Tikka">
+                                    <img src="dishes/1211.png" alt="Chicken Tikka">
                                     <span class="product-tag">Chef's Special</span>
                                     <div class="actions">
                                         
@@ -396,13 +396,13 @@
                                     <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                         <span>Rated <strong class="rating">5.00</strong> out of 5</span>
                                     </div>
-                                    <h3 class="product-title"><a href="menu.php">Chicken Tikka</a></h3>
+                                    <h3 class="product-title"><a href="menu.php">Chicken Tikka Masala</a></h3>
                                     <span class="price">£8.95</span>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat1 cat2">
+                        <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat1 ">
                             <div class="th-product product-grid">
                                 <div class="product-img transparent-img">
                                     <img src="dishes/onion.png" alt="Onion Bhaji">
@@ -422,7 +422,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xl-3 col-lg-4 col-sm-6 filter-item cat1 cat3">
+                        <div class="col-xl-3 col-lg-4 col-sm-6 filter-item  cat3">
                             <div class="th-product product-grid">
                                 <div class="product-img transparent-img">
                                     <img src="dishes/3.png" alt="Lamb Biryani">
