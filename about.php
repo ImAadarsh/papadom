@@ -178,8 +178,8 @@
                                 <div class="box-img">
                                     <img src="assets/img/team/team_1_3.jpg" alt="Mr Buddha">
                                 </div>
-                                <h3 class="box-title">Mr Buddha</h3>
-                                <p class="box-desig">Customer Service</p>
+                                <h3 class="box-title">Mr Belal</h3>
+                                <p class="box-desig">Tandoori Chef</p>
                             </div>
                         </div>
                     </div>

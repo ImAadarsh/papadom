@@ -5,28 +5,25 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# Remove .html extension and redirect to .php
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.*)\.html$ /$1.php [L,R=301]
-
-# If the .php file doesn't exist, try without extension
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
-
 # Prevent caching for all files
-<FilesMatch ".(html|htm|php|js|css)$">
+<FilesMatch "\.(html|htm|php|js|css|json|xml|txt|jpg|jpeg|png|gif|ico|svg)$">
     FileETag None
     <IfModule mod_headers.c>
         Header unset ETag
-        Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+        Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0, private"
         Header set Pragma "no-cache"
-        Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
+        Header set Expires "0"
+        Header always set Last-Modified "Thu, 01 Jan 1970 00:00:00 GMT"
+        Header set X-Content-Type-Options "nosniff"
     </IfModule>
 </FilesMatch>
 
 # Enable compression
 <IfModule mod_deflate.c>
-    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript application/json
+</IfModule>
+
+# Force the latest IE version
+<IfModule mod_headers.c>
+    Header set X-UA-Compatible "IE=Edge,chrome=1"
 </IfModule>
